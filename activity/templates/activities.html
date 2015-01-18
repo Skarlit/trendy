@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block sidebar %}
+<ul>
+    <li><a href="/activities/all">Activities</a></li>
+    <li><a href="/activities/create">Create Activity</a></li>
+</ul>
+{% endblock %}
+
+{% block content %}
+    <h2> Language is: {{ language }}</h2>
+    <h2> Session language is: {{ session_language }}</h2>
+    {% if activities.count > 0 %}
+        {% for activity in activities %}
+            <div>
+                <h2><a href='/activities/get/{{ activity.id }}'>{{ activity.title }}</a></h2>
+                <p>{{ activity.description|lower|truncatewords:'10' }}</p>
+                <p>{{ activity.likes}} people like this activity.</p>
+            </div>
+        {% endfor %}
+    {% else %}
+        <p>No content need to show.</p>
+    {% endif %}
+{% endblock %}

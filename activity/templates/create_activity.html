@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block sidebar %}
+    <ul>
+        <li><a href="/activities/all">Cancel</a></li>
+    </ul>
+{% endblock %}
+
+{% block content %}
+    <form action="/activities/create/" method="post" enctype="multipart/form-data">{% csrf_token %}
+        {# <!----> this is django thing. #}
+        <ul>{{form.as_ul}}</ul>
+        <input type="submit" name="submit" value="Create Activity">
+    </form>
+{% endblock %}
+
+

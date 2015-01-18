@@ -1,0 +1,13 @@
+<h1>Page View Report</h1>
+<body>
+Hi {{ name }}
+this is the template method view.
+</body>
+
+<ul>
+
+{% for greeting in greetings %}
+    <li>{{ greeting.when }}</li>
+{% endfor %}
+
+</ul>
