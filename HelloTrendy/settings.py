@@ -108,7 +108,6 @@ STATICFILES_DIRS = (
     # os.path.join(BASE_DIR, STATIC_URL)
     ('', os.path.join(BASE_DIR, "static")),
     # ('', '/home/scarlet/Python/trendy/static'),
-    ('user_upload_files', os.path.join(BASE_DIR, "static")),
     # This is the place tell Django where is the static files where we created in the project.
 
     # Put strings here. like 'home/html/static' or 'C:/www/django/static'.
