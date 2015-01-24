@@ -1,3 +1,9 @@
+__author__ = 'changyunglin, ranxie'
+__copyright__ = 'Copyright 2015, The HelloTrendy Project'
+__credits__ = ['changyunglin', 'ranxie']
+__version__ = '0.0.1'
+__email__ = 'changyunglin@gmail.com, rxxxie@gmail.com'
+
 """
 Django settings for HelloTrendy project.
 
@@ -11,6 +17,7 @@ https://docs.djangoproject.com/en/1.7/ref/settings/
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 import os
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+PROJECT_DIR = os.path.dirname(os.path.realpath(__file__))
 
 
 # Quick-start development settings - unsuitable for production
@@ -26,7 +33,6 @@ TEMPLATE_DEBUG = True
 
 ALLOWED_HOSTS = []
 
-
 # Application definition
 
 INSTALLED_APPS = (
@@ -36,6 +42,8 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'activity',
+    'djangobower',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -47,15 +55,21 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
+BOWER_COMPONENTS_ROOT = os.path.join(BASE_DIR, 'components')
+
+BOWER_INSTALLED_APPS = (
+  'jquery#1.9',
+)
+
+# ROOT_URLCONF = 'urls'
+# WSGI_APPLICATION = 'wsgi.application'
 
 ROOT_URLCONF = 'HelloTrendy.urls'
-
 WSGI_APPLICATION = 'HelloTrendy.wsgi.application'
 
 
 # Database
 # https://docs.djangoproject.com/en/1.7/ref/settings/#databases
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
@@ -76,15 +90,10 @@ TEMPLATE_DIRS = {
 # https://docs.djangoproject.com/en/1.7/topics/i18n/
 
 LANGUAGE_CODE = 'en-us'
-
 TIME_ZONE = 'UTC'
-
 USE_I18N = True
-
 USE_L10N = True
-
 USE_TZ = True
-
 
 # Honor the 'X-Forwarded-Proto' header for request.is_secure()
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
@@ -94,25 +103,44 @@ ALLOWED_HOSTS = ['*']
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.7/howto/static-files/
+# Set up current root folder. Need to change it once deploy it on AWS.
+# In developing environment, it's start_up/HelloTrendy
+# STATIC_ROOT = 'HelloTrendy/static'
+STATIC_ROOT = os.path.join(PROJECT_DIR, '..', 'static')
 
 # URL prefix for static files/.
 # https://docs.djangoproject.com/en/1.6/howto/static-files/
 STATIC_URL = '/static/'
 
-# Set up current root folder. Need to change it once deploy it on AWS.
-# In developing environment, it's start_up/HelloTrendy
-STATIC_ROOT = ''
-print 'static path: ', os.path.join(BASE_DIR, STATIC_URL)
 # Additional locations of static files.
 STATICFILES_DIRS = (
     # os.path.join(BASE_DIR, STATIC_URL)
-    # ('assets', os.path.join(BASE_DIR, "static")),
-    ('assets', STATIC_URL),
-    # ('user_upload_files', os.path.join(BASE_DIR, "static")),
+    ('assets', os.path.join(BASE_DIR, "static")),
+    ('user_upload_files', os.path.join(BASE_DIR,  "static")),
     # This is the place tell Django where is the static files where we created in the project.
 
     # Put strings here. like 'home/html/static' or 'C:/www/django/static'.
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths. No relative paths.
 )
+
+STATICFILES_FINDERS = (
+    'djangobower.finders.BowerFinder',
+    'django.contrib.staticfiles.finders.AppDirectoriesFinder',
+)
+
+# Absolute filesystem path to the directory that will hold user-upload files.
+# Example: "/home/media/media.lawrence.com/static/"
+MEDIA_ROOT = os.path.join(BASE_DIR, "static")
+
+
+
+
+
+
+
+
+
+
+
 

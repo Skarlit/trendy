@@ -1,5 +1,8 @@
 from django.conf.urls import patterns, include, url
 from django.contrib import admin
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
+from django.conf import settings
+from django.conf.urls.static import static
 from views import *
 
 admin.autodiscover()
@@ -17,4 +20,6 @@ urlpatterns = patterns('',
     url(r'^accounts/invalid/$', 'invalid_login'),
     url(r'^accounts/register/$', 'register_user'),
     url(r'^accounts/register_success/$', 'register_success'),
-)
+) + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+
+urlpatterns += staticfiles_urlpatterns()
