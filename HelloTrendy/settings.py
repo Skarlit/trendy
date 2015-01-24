@@ -101,14 +101,14 @@ STATIC_URL = '/static/'
 
 # Set up current root folder. Need to change it once deploy it on AWS.
 # In developing environment, it's start_up/HelloTrendy
-STATIC_ROOT = ''
+STATIC_ROOT = BASE_DIR
 print 'static path: ', os.path.join(BASE_DIR, STATIC_URL)
 # Additional locations of static files.
 STATICFILES_DIRS = (
     # os.path.join(BASE_DIR, STATIC_URL)
-    # ('assets', os.path.join(BASE_DIR, "static")),
-    ('assets', STATIC_URL),
-    # ('user_upload_files', os.path.join(BASE_DIR, "static")),
+    ('', os.path.join(BASE_DIR, "static")),
+    # ('', '/home/scarlet/Python/trendy/static'),
+    ('user_upload_files', os.path.join(BASE_DIR, "static")),
     # This is the place tell Django where is the static files where we created in the project.
 
     # Put strings here. like 'home/html/static' or 'C:/www/django/static'.
