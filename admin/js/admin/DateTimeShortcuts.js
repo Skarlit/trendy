@@ -15,10 +15,15 @@ var DateTimeShortcuts = {
     clockLinkName: 'clocklink',      // name of the link that is used to toggle
     shortCutsClass: 'datetimeshortcuts', // class of the clock and cal shortcuts
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     timezoneWarningClass: 'timezonewarning', // class of the warning for timezone mismatch
     timezoneOffset: 0,
->>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
+>>>>>>> clean up
+=======
+    timezoneWarningClass: 'timezonewarning', // class of the warning for timezone mismatch
+    timezoneOffset: 0,
+>>>>>>> clean up
     admin_media_prefix: '',
     init: function() {
         // Get admin_media_prefix by grabbing it off the window object. It's
@@ -32,19 +37,26 @@ var DateTimeShortcuts = {
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> clean up
         if (window.__admin_utc_offset__ != undefined) {
             var serverOffset = window.__admin_utc_offset__;
             var localOffset = new Date().getTimezoneOffset() * -60;
             DateTimeShortcuts.timezoneOffset = localOffset - serverOffset;
         }
 
->>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
+<<<<<<< HEAD
+>>>>>>> clean up
+=======
+>>>>>>> clean up
         var inputs = document.getElementsByTagName('input');
         for (i=0; i<inputs.length; i++) {
             var inp = inputs[i];
             if (inp.getAttribute('type') == 'text' && inp.className.match(/vTimeField/)) {
                 DateTimeShortcuts.addClock(inp);
+<<<<<<< HEAD
 <<<<<<< HEAD
             }
             else if (inp.getAttribute('type') == 'text' && inp.className.match(/vDateField/)) {
@@ -53,6 +65,8 @@ var DateTimeShortcuts = {
         }
     },
 =======
+=======
+>>>>>>> clean up
                 DateTimeShortcuts.addTimezoneWarning(inp);
             }
             else if (inp.getAttribute('type') == 'text' && inp.className.match(/vDateField/)) {
@@ -113,7 +127,10 @@ var DateTimeShortcuts = {
             .append($('<br>'))
             .append($warning)
     },
->>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
+<<<<<<< HEAD
+>>>>>>> clean up
+=======
+>>>>>>> clean up
     // Add clock widget to a given field
     addClock: function(inp) {
         var num = DateTimeShortcuts.clockInputs.length;
@@ -126,10 +143,14 @@ var DateTimeShortcuts = {
         inp.parentNode.insertBefore(shortcuts_span, inp.nextSibling);
         var now_link = document.createElement('a');
 <<<<<<< HEAD
+<<<<<<< HEAD
         now_link.setAttribute('href', "javascript:DateTimeShortcuts.handleClockQuicklink(" + num + ", new Date().strftime('" + get_format('TIME_INPUT_FORMATS')[0] + "'));");
 =======
         now_link.setAttribute('href', "javascript:DateTimeShortcuts.handleClockQuicklink(" + num + ", -1);");
->>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
+>>>>>>> clean up
+=======
+        now_link.setAttribute('href', "javascript:DateTimeShortcuts.handleClockQuicklink(" + num + ", -1);");
+>>>>>>> clean up
         now_link.appendChild(document.createTextNode(gettext('Now')));
         var clock_link = document.createElement('a');
         clock_link.setAttribute('href', 'javascript:DateTimeShortcuts.openClock(' + num + ');');
@@ -164,6 +185,7 @@ var DateTimeShortcuts = {
 
         quickElement('h2', clock_box, gettext('Choose a time'));
 <<<<<<< HEAD
+<<<<<<< HEAD
         var time_list = quickElement('ul', clock_box, '');
         time_list.className = 'timelist';
         var time_format = get_format('TIME_INPUT_FORMATS')[0];
@@ -174,6 +196,8 @@ var DateTimeShortcuts = {
 
         var cancel_p = quickElement('p', clock_box, '');
 =======
+=======
+>>>>>>> clean up
         var time_list = quickElement('ul', clock_box);
         time_list.className = 'timelist';
         quickElement("a", quickElement("li", time_list), gettext("Now"), "href", "javascript:DateTimeShortcuts.handleClockQuicklink(" + num + ", -1);");
@@ -182,7 +206,10 @@ var DateTimeShortcuts = {
         quickElement("a", quickElement("li", time_list), gettext("Noon"), "href", "javascript:DateTimeShortcuts.handleClockQuicklink(" + num + ", 12);");
 
         var cancel_p = quickElement('p', clock_box);
->>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
+<<<<<<< HEAD
+>>>>>>> clean up
+=======
+>>>>>>> clean up
         cancel_p.className = 'calendar-cancel';
         quickElement('a', cancel_p, gettext('Cancel'), 'href', 'javascript:DateTimeShortcuts.dismissClock(' + num + ');');
         django.jQuery(document).bind('keyup', function(event) {
@@ -221,8 +248,11 @@ var DateTimeShortcuts = {
     },
     handleClockQuicklink: function(num, val) {
 <<<<<<< HEAD
+<<<<<<< HEAD
        DateTimeShortcuts.clockInputs[num].value = val;
 =======
+=======
+>>>>>>> clean up
        var d;
        if (val == -1) {
            d = DateTimeShortcuts.now();
@@ -231,7 +261,10 @@ var DateTimeShortcuts = {
            d = new Date(1970, 1, 1, val, 0, 0, 0)
        }
        DateTimeShortcuts.clockInputs[num].value = d.strftime(get_format('TIME_INPUT_FORMATS')[0]);
->>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
+<<<<<<< HEAD
+>>>>>>> clean up
+=======
+>>>>>>> clean up
        DateTimeShortcuts.clockInputs[num].focus();
        DateTimeShortcuts.dismissClock(num);
     },
@@ -285,10 +318,14 @@ var DateTimeShortcuts = {
 
         // next-prev links
 <<<<<<< HEAD
+<<<<<<< HEAD
         var cal_nav = quickElement('div', cal_box, '');
 =======
         var cal_nav = quickElement('div', cal_box);
->>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
+>>>>>>> clean up
+=======
+        var cal_nav = quickElement('div', cal_box);
+>>>>>>> clean up
         var cal_nav_prev = quickElement('a', cal_nav, '<', 'href', 'javascript:DateTimeShortcuts.drawPrev('+num+');');
         cal_nav_prev.className = 'calendarnav-previous';
         var cal_nav_next = quickElement('a', cal_nav, '>', 'href', 'javascript:DateTimeShortcuts.drawNext('+num+');');
@@ -302,10 +339,14 @@ var DateTimeShortcuts = {
 
         // calendar shortcuts
 <<<<<<< HEAD
+<<<<<<< HEAD
         var shortcuts = quickElement('div', cal_box, '');
 =======
         var shortcuts = quickElement('div', cal_box);
->>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
+>>>>>>> clean up
+=======
+        var shortcuts = quickElement('div', cal_box);
+>>>>>>> clean up
         shortcuts.className = 'calendar-shortcuts';
         quickElement('a', shortcuts, gettext('Yesterday'), 'href', 'javascript:DateTimeShortcuts.handleCalendarQuickLink(' + num + ', -1);');
         shortcuts.appendChild(document.createTextNode('\240|\240'));
@@ -315,10 +356,14 @@ var DateTimeShortcuts = {
 
         // cancel bar
 <<<<<<< HEAD
+<<<<<<< HEAD
         var cancel_p = quickElement('p', cal_box, '');
 =======
         var cancel_p = quickElement('p', cal_box);
->>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
+>>>>>>> clean up
+=======
+        var cancel_p = quickElement('p', cal_box);
+>>>>>>> clean up
         cancel_p.className = 'calendar-cancel';
         quickElement('a', cancel_p, gettext('Cancel'), 'href', 'javascript:DateTimeShortcuts.dismissCalendar(' + num + ');');
         django.jQuery(document).bind('keyup', function(event) {
@@ -341,13 +386,19 @@ var DateTimeShortcuts = {
             var year = date_parts[0];
             var month = parseFloat(date_parts[1]);
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (year.match(/\d\d\d\d/) && month >= 1 && month <= 12) {
                 DateTimeShortcuts.calendars[num].drawDate(month, year);
 =======
             var selected = new Date(inp.value);
             if (year.match(/\d\d\d\d/) && month >= 1 && month <= 12) {
                 DateTimeShortcuts.calendars[num].drawDate(month, year, selected);
->>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
+>>>>>>> clean up
+=======
+            var selected = new Date(inp.value);
+            if (year.match(/\d\d\d\d/) && month >= 1 && month <= 12) {
+                DateTimeShortcuts.calendars[num].drawDate(month, year, selected);
+>>>>>>> clean up
             }
         }
 
@@ -380,10 +431,14 @@ var DateTimeShortcuts = {
     },
     handleCalendarCallback: function(num) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         format = get_format('DATE_INPUT_FORMATS')[0];
 =======
         var format = get_format('DATE_INPUT_FORMATS')[0];
->>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
+>>>>>>> clean up
+=======
+        var format = get_format('DATE_INPUT_FORMATS')[0];
+>>>>>>> clean up
         // the format needs to be escaped a little
         format = format.replace('\\', '\\\\');
         format = format.replace('\r', '\\r');
@@ -402,10 +457,14 @@ var DateTimeShortcuts = {
     },
     handleCalendarQuickLink: function(num, offset) {
 <<<<<<< HEAD
+<<<<<<< HEAD
        var d = new Date();
 =======
        var d = DateTimeShortcuts.now();
->>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
+>>>>>>> clean up
+=======
+       var d = DateTimeShortcuts.now();
+>>>>>>> clean up
        d.setDate(d.getDate() + offset)
        DateTimeShortcuts.calendarInputs[num].value = d.strftime(get_format('DATE_INPUT_FORMATS')[0]);
        DateTimeShortcuts.calendarInputs[num].focus();

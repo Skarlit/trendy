@@ -16,10 +16,14 @@ window.SelectFilter = {
     init: function(field_id, field_name, is_stacked, admin_static_prefix) {
         if (field_id.match(/__prefix__/)){
 <<<<<<< HEAD
+<<<<<<< HEAD
             // Don't intialize on empty forms.
 =======
             // Don't initialize on empty forms.
->>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
+>>>>>>> clean up
+=======
+            // Don't initialize on empty forms.
+>>>>>>> clean up
             return;
         }
         var from_box = document.getElementById(field_id);
@@ -45,10 +49,14 @@ window.SelectFilter = {
 
         // <div class="selector-available">
 <<<<<<< HEAD
+<<<<<<< HEAD
         var selector_available = quickElement('div', selector_div, '');
 =======
         var selector_available = quickElement('div', selector_div);
->>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
+>>>>>>> clean up
+=======
+        var selector_available = quickElement('div', selector_div);
+>>>>>>> clean up
         selector_available.className = 'selector-available';
         var title_available = quickElement('h2', selector_available, interpolate(gettext('Available %s') + ' ', [field_name]));
         quickElement('img', title_available, '', 'src', admin_static_prefix + 'img/icon-unknown.gif', 'width', '10', 'height', '10', 'class', 'help help-tooltip', 'title', interpolate(gettext('This is the list of available %s. You may choose some by selecting them in the box below and then clicking the "Choose" arrow between the two boxes.'), [field_name]));
@@ -71,6 +79,7 @@ window.SelectFilter = {
 
         // <ul class="selector-chooser">
 <<<<<<< HEAD
+<<<<<<< HEAD
         var selector_chooser = quickElement('ul', selector_div, '');
         selector_chooser.className = 'selector-chooser';
         var add_link = quickElement('a', quickElement('li', selector_chooser, ''), gettext('Choose'), 'title', gettext('Choose'), 'href', 'javascript: (function(){ SelectBox.move("' + field_id + '_from","' + field_id + '_to"); SelectFilter.refresh_icons("' + field_id + '");})()', 'id', field_id + '_add_link');
@@ -81,6 +90,8 @@ window.SelectFilter = {
         // <div class="selector-chosen">
         var selector_chosen = quickElement('div', selector_div, '');
 =======
+=======
+>>>>>>> clean up
         var selector_chooser = quickElement('ul', selector_div);
         selector_chooser.className = 'selector-chooser';
         var add_link = quickElement('a', quickElement('li', selector_chooser), gettext('Choose'), 'title', gettext('Choose'), 'href', 'javascript: (function(){ SelectBox.move("' + field_id + '_from","' + field_id + '_to"); SelectFilter.refresh_icons("' + field_id + '");})()', 'id', field_id + '_add_link');
@@ -90,7 +101,10 @@ window.SelectFilter = {
 
         // <div class="selector-chosen">
         var selector_chosen = quickElement('div', selector_div);
->>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
+<<<<<<< HEAD
+>>>>>>> clean up
+=======
+>>>>>>> clean up
         selector_chosen.className = 'selector-chosen';
         var title_chosen = quickElement('h2', selector_chosen, interpolate(gettext('Chosen %s') + ' ', [field_name]));
         quickElement('img', title_chosen, '', 'src', admin_static_prefix + 'img/icon-unknown.gif', 'width', '10', 'height', '10', 'class', 'help help-tooltip', 'title', interpolate(gettext('This is the list of chosen %s. You may remove some by selecting them in the box below and then clicking the "Remove" arrow between the two boxes.'), [field_name]));

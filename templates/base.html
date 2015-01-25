@@ -21,10 +21,20 @@
       </div><!--/.nav-collapse -->
     </div>
     <title>{% block title %}My Base Template{% endblock %}</title>
-    <link rel="stylesheet" type="text/css" href="{{STATIC_URL}}assets/css/bootstrap.min.css">
+    <script type="text/javascript" src="{{STATIC_URL}}assets/third_party_js/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="{{STATIC_URL}}assets/third_party_js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="{{STATIC_URL}}assets/third_party_js/underscore-min.js"></script>
+    <script type="text/javascript" src="{{STATIC_URL}}assets/third_party_js/backbone.min.js"></script>
+    <script type="text/javascript" src="{{STATIC_URL}}assets/js/views/footer_view.js"></script>
+    <script type="text/javascript" src="{{STATIC_URL}}assets/js/views/activity_view.js"></script>
+    <script type="text/javascript" src="{{STATIC_URL}}assets/js/models/activity.js"></script>
+    <script type="text/javascript" src="{{STATIC_URL}}assets/js/router.js"></script>
+    <script type="text/javascript" src="{{STATIC_URL}}assets/js/app.js"></script>
+    <link rel="stylesheet" type="text/css" href="{{STATIC_URL}}assets/third_party_css/bootstrap.min.css">
 
   </head>
   <body>
+   <a href="/activities/all/#hello">Hello</a>
     <div class="page-header">
       <h1>Example Page header</h1>
     </div>
@@ -45,116 +55,12 @@
       <img src="{% static 'assets/images/python-logo.png' %}" width="200" alt="My image"/>
       </div>
     </div>
-    <div id="footer" class="container-brand-dark footer-surround footer-container">
-      <div class="footer-content-container page-container-responsive">
-      <div class="row row-condensed">
-      <div class="col-md-3 col-md-offset-1">
-      <!--USE JS to create Language selector and currency selector.-->
-      <div class="language-curr-picker clearfix">
-      <div class="select select-large select-block row-space-2">
-      <select class="language-selector">
-      </select>
-      </div>
-      <div class="select select-large select-block row-space-2">
-      <select class="currency-selector">
-      </select>
-      </div>
-      </div>
-      </div>
-
-      <div class="col-md-2 col-md-offset-1 hide-sm">
-      <h5>Company</h5>
-      <ul class="unstyled list-layout">
-      <li><a href="/about/about-us" class="link-contrast">About</a></li>
-      <li><a href="/jobs" class="link-contrast">Jobs</a></li>
-      <li><a href="/press/news" class="link-contrast">Press</a></li>
-      <li><a href="http://blog.airbnb.com" class="link-contrast">Blog</a></li>
-      <li><a href="/help" class="link-contrast">Help</a></li>
-      <li><a href="/policies" class="link-contrast">Policies</a></li>
-      <li><a href="/disaster-response" class="link-contrast">Disaster Response</a></li>
-      <li><a href="/terms" class="link-contrast">Terms &amp; Privacy</a></li>
-      </ul>
-      </div>
-
-      <div class="col-md-2 hide-sm">
-      <h5>Discover</h5>
-      <ul class="unstyled list-layout">
-      <li><a href="/trust" class="link-contrast">Trust &amp; Safety</a></li>
-      <li><a href="/invite?r=6" class="link-contrast">Invite Friends</a></li>
-      <li><a href="/wishlists/airbnb_picks" class="link-contrast">Airbnb Picks</a></li>
-      <li><a href="/mobile" class="link-contrast">Mobile</a></li>
-      <li><a href="https://www.airbnbnyc.com" class="link-contrast">Support NYC</a></li>
-      <li><a href="/business-travel-management" class="link-contrast">Business Travel</a></li>
-      <li><a href="/sitemaps" class="link-contrast">Site Map</a></li>
-      </ul>
-      </div>
-
-      <div class="col-md-2 hide-sm">
-      <h5>Hosting</h5>
-      <ul class="unstyled list-layout">
-      <li><a href="/host" class="link-contrast">Why Host</a></li>
-      <li><a href="/hospitality" class="link-contrast">Hospitality</a></li>
-      <li><a href="/help/responsible-hosting" class="link-contrast">Responsible Hosting</a></li>
-      <li><a href="/home-safety" class="link-contrast">Home Safety</a></li>
-      <li><a href="/stories" class="link-contrast">Stories</a></li>
-      </ul>
-      </div>
-      </div>
-      <div class="col-sm-12 row-space-4 row-space-top-4 show-sm">
-      <ul class="unstyled list-layout list-inline text-center h5">
-      <li><a href="/about/about-us" class="link-contrast">About</a></li>
-      <li><a href="/jobs" class="link-contrast">Jobs</a></li>
-      <li><a href="/press/news" class="link-contrast">Press</a></li>
-      <li><a href="http://blog.airbnb.com" class="link-contrast">Blog</a></li>
-      <li><a href="/terms" class="link-contrast">Terms &amp; Privacy</a></li>
-      </ul>
-      </div>
-
-      <hr class="footer-divider row-space-top-8 row-space-4 hide-sm">
-
-      <div class="social-media text-center">
-      <h5 class="row-space-4 hide-sm">Join Us On</h5>
-      <ul class="unstyled list-layout list-inline">
-      <li>
-      <a href="https://www.facebook.com/airbnb" class="link-contrast footer-icon-container" target="_blank">
-      <i class="icon footer-icon icon-facebook"></i>
-      </a>
-      </li>
-      <li>
-      <a href="https://plus.google.com/+airbnb" class="link-contrast footer-icon-container" target="_blank">
-      <i class="icon footer-icon icon-google-plus"></i>
-      </a>
-      </li>
-      <li>
-      <a href="https://twitter.com/airbnb" class="link-contrast footer-icon-container" target="_blank">
-      <i class="icon footer-icon icon-twitter"></i>
-      </a>
-      </li>
-      <li>
-      <a href="https://www.linkedin.com/company/airbnb" class="link-contrast footer-icon-container" target="_blank">
-      <i class="icon footer-icon icon-linkedin"></i>
-      </a>
-      </li>
-      <li>
-      <a href="https://www.pinterest.com/airbnb/" class="link-contrast footer-icon-container" target="_blank">
-      <i class="icon footer-icon icon-pinterest"></i>
-      </a>
-      </li>
-      <li>
-      <a href="http://www.youtube.com/airbnb" class="link-contrast footer-icon-container" target="_blank">
-      <i class="icon footer-icon icon-youtube"></i>
-      </a>
-      </li>
-      <li>
-      <a href="https://www.instagram.com/airbnb" class="link-contrast footer-icon-container" target="_blank">
-      <i class="icon footer-icon icon-instagram"></i>
-      </a>
-      </li>
-      </ul>
-      </div>
-      <div id="copyright" class="row-space-top-2 text-muted">
-      © Airbnb, Inc.
-      </div>
-      </div>
+    {% include "footer_template.html" %}
+    {% include "activity_template.html" %}
+    <script> 
+      var router = new Backbone.Router();
+    </script>
+    <div id="activity-card"></div>
+    <div id="footer" class="container-brand-dark footer-surround footer-container"></div>
   </body>
 </html>

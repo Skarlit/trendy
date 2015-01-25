@@ -4,6 +4,7 @@
             Depends on urlify.js
             Populates a selected field with the values of the dependent fields,
 <<<<<<< HEAD
+<<<<<<< HEAD
             URLifies and shortens the string. 
             dependencies - array of dependent fields id's 
             maxLength - maximum length of the URLify'd string 
@@ -31,6 +32,8 @@
 
             $(dependencies.join(',')).keyup(populate).change(populate).focus(populate);
 =======
+=======
+>>>>>>> clean up
             URLifies and shortens the string.
             dependencies - array of dependent fields ids
             maxLength - maximum length of the URLify'd string
@@ -62,7 +65,10 @@
             if (!prepopulatedField.val()) {
                 $(dependencies.join(',')).keyup(populate).change(populate).focus(populate);
             }
->>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
+<<<<<<< HEAD
+>>>>>>> clean up
+=======
+>>>>>>> clean up
         });
     };
 })(django.jQuery);

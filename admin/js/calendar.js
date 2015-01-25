@@ -28,10 +28,14 @@ var CalendarNamespace = {
         return days;
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
     draw: function(month, year, div_id, callback) { // month = 1-12, year = 1-9999
 =======
     draw: function(month, year, div_id, callback, selected) { // month = 1-12, year = 1-9999
->>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
+>>>>>>> clean up
+=======
+    draw: function(month, year, div_id, callback, selected) { // month = 1-12, year = 1-9999
+>>>>>>> clean up
         var today = new Date();
         var todayDay = today.getDate();
         var todayMonth = today.getMonth()+1;
@@ -39,7 +43,10 @@ var CalendarNamespace = {
         var todayClass = '';
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> clean up
         // Use UTC functions here because the date field does not contain time
         // and using the UTC function variants prevent the local time offset
         // from altering the date, specifically the day field.  For example:
@@ -56,7 +63,10 @@ var CalendarNamespace = {
             isSelectedMonth = (selected.getUTCFullYear() == year && (selected.getUTCMonth()+1) == month);
         }
 
->>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
+<<<<<<< HEAD
+>>>>>>> clean up
+=======
+>>>>>>> clean up
         month = parseInt(month);
         year = parseInt(year);
         var calDiv = document.getElementById(div_id);
@@ -79,10 +89,14 @@ var CalendarNamespace = {
         for (var i = 0; i < startingPos; i++) {
             var _cell = quickElement('td', tableRow, ' ');
 <<<<<<< HEAD
+<<<<<<< HEAD
             _cell.style.backgroundColor = '#f3f3f3';
 =======
             _cell.className = "nonday";
->>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
+>>>>>>> clean up
+=======
+            _cell.className = "nonday";
+>>>>>>> clean up
         }
 
         // Draw days of month
@@ -97,7 +111,10 @@ var CalendarNamespace = {
                 todayClass='';
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> clean up
 
             // use UTC function; see above for explanation.
             if (isSelectedMonth && currentDay == selected.getUTCDate()) {
@@ -105,7 +122,10 @@ var CalendarNamespace = {
                 todayClass += "selected";
             }
 
->>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
+<<<<<<< HEAD
+>>>>>>> clean up
+=======
+>>>>>>> clean up
             var cell = quickElement('td', tableRow, '', 'class', todayClass);
 
             quickElement('a', cell, currentDay, 'href', 'javascript:void(' + callback + '('+year+','+month+','+currentDay+'));');
@@ -116,10 +136,14 @@ var CalendarNamespace = {
         while (tableRow.childNodes.length < 7) {
             var _cell = quickElement('td', tableRow, ' ');
 <<<<<<< HEAD
+<<<<<<< HEAD
             _cell.style.backgroundColor = '#f3f3f3';
 =======
             _cell.className = "nonday";
->>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
+>>>>>>> clean up
+=======
+            _cell.className = "nonday";
+>>>>>>> clean up
         }
 
         calDiv.appendChild(calTable);
@@ -128,10 +152,14 @@ var CalendarNamespace = {
 
 // Calendar -- A calendar instance
 <<<<<<< HEAD
+<<<<<<< HEAD
 function Calendar(div_id, callback) {
 =======
 function Calendar(div_id, callback, selected) {
->>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
+>>>>>>> clean up
+=======
+function Calendar(div_id, callback, selected) {
+>>>>>>> clean up
     // div_id (string) is the ID of the element in which the calendar will
     //     be displayed
     // callback (string) is the name of a JavaScript function that will be
@@ -143,6 +171,7 @@ function Calendar(div_id, callback, selected) {
     this.currentMonth = this.today.getMonth() + 1;
     this.currentYear = this.today.getFullYear();
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 Calendar.prototype = {
     drawCurrent: function() {
@@ -152,6 +181,8 @@ Calendar.prototype = {
         this.currentMonth = month;
         this.currentYear = year;
 =======
+=======
+>>>>>>> clean up
     if (typeof selected != 'undefined') {
         this.selected = selected;
     }
@@ -168,7 +199,10 @@ Calendar.prototype = {
             this.selected = selected;
         }
 
->>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
+<<<<<<< HEAD
+>>>>>>> clean up
+=======
+>>>>>>> clean up
         this.drawCurrent();
     },
     drawPreviousMonth: function() {

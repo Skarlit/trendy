@@ -17,13 +17,19 @@ var SelectBox = {
             var node = SelectBox.cache[id][i];
             if (node.displayed) {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 box.options[box.options.length] = new Option(node.text, node.value, false, false);
 =======
+=======
+>>>>>>> clean up
                 var new_option = new Option(node.text, node.value, false, false);
                 // Shows a tooltip when hovering over the option
                 new_option.setAttribute("title", node.text);
                 box.options[box.options.length] = new_option;
->>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
+<<<<<<< HEAD
+>>>>>>> clean up
+=======
+>>>>>>> clean up
             }
         }
     },

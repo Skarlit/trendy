@@ -4,6 +4,7 @@ var LATIN_MAP = {
     'Ï': 'I', 'Ð': 'D', 'Ñ': 'N', 'Ò': 'O', 'Ó': 'O', 'Ô': 'O', 'Õ': 'O', 'Ö':
     'O', 'Ő': 'O', 'Ø': 'O', 'Ù': 'U', 'Ú': 'U', 'Û': 'U', 'Ü': 'U', 'Ű': 'U',
 <<<<<<< HEAD
+<<<<<<< HEAD
     'Ý': 'Y', 'Þ': 'TH', 'ß': 'ss', 'à':'a', 'á':'a', 'â': 'a', 'ã': 'a', 'ä':
     'a', 'å': 'a', 'æ': 'ae', 'ç': 'c', 'è': 'e', 'é': 'e', 'ê': 'e', 'ë': 'e',
     'ì': 'i', 'í': 'i', 'î': 'i', 'ï': 'i', 'ð': 'd', 'ñ': 'n', 'ò': 'o', 'ó':
@@ -14,6 +15,8 @@ var LATIN_SYMBOLS_MAP = {
     '©':'(c)'
 }
 =======
+=======
+>>>>>>> clean up
     'Ý': 'Y', 'Þ': 'TH', 'Ÿ': 'Y', 'ß': 'ss', 'à':'a', 'á':'a', 'â': 'a', 'ã':
     'a', 'ä': 'a', 'å': 'a', 'æ': 'ae', 'ç': 'c', 'è': 'e', 'é': 'e', 'ê': 'e',
     'ë': 'e', 'ì': 'i', 'í': 'i', 'î': 'i', 'ï': 'i', 'ð': 'd', 'ñ': 'n', 'ò':
@@ -23,7 +26,10 @@ var LATIN_SYMBOLS_MAP = {
 var LATIN_SYMBOLS_MAP = {
     '©':'(c)'
 };
->>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
+<<<<<<< HEAD
+>>>>>>> clean up
+=======
+>>>>>>> clean up
 var GREEK_MAP = {
     'α':'a', 'β':'b', 'γ':'g', 'δ':'d', 'ε':'e', 'ζ':'z', 'η':'h', 'θ':'8',
     'ι':'i', 'κ':'k', 'λ':'l', 'μ':'m', 'ν':'n', 'ξ':'3', 'ο':'o', 'π':'p',
@@ -36,18 +42,24 @@ var GREEK_MAP = {
     'Ά':'A', 'Έ':'E', 'Ί':'I', 'Ό':'O', 'Ύ':'Y', 'Ή':'H', 'Ώ':'W', 'Ϊ':'I',
     'Ϋ':'Y'
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 var TURKISH_MAP = {
     'ş':'s', 'Ş':'S', 'ı':'i', 'İ':'I', 'ç':'c', 'Ç':'C', 'ü':'u', 'Ü':'U',
     'ö':'o', 'Ö':'O', 'ğ':'g', 'Ğ':'G'
 }
 =======
+=======
+>>>>>>> clean up
 };
 var TURKISH_MAP = {
     'ş':'s', 'Ş':'S', 'ı':'i', 'İ':'I', 'ç':'c', 'Ç':'C', 'ü':'u', 'Ü':'U',
     'ö':'o', 'Ö':'O', 'ğ':'g', 'Ğ':'G'
 };
->>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
+<<<<<<< HEAD
+>>>>>>> clean up
+=======
+>>>>>>> clean up
 var RUSSIAN_MAP = {
     'а':'a', 'б':'b', 'в':'v', 'г':'g', 'д':'d', 'е':'e', 'ё':'yo', 'ж':'zh',
     'з':'z', 'и':'i', 'й':'j', 'к':'k', 'л':'l', 'м':'m', 'н':'n', 'о':'o',
@@ -60,20 +72,27 @@ var RUSSIAN_MAP = {
     'Ч':'Ch', 'Ш':'Sh', 'Щ':'Sh', 'Ъ':'', 'Ы':'Y', 'Ь':'', 'Э':'E', 'Ю':'Yu',
     'Я':'Ya'
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 var UKRAINIAN_MAP = {
     'Є':'Ye', 'І':'I', 'Ї':'Yi', 'Ґ':'G', 'є':'ye', 'і':'i', 'ї':'yi', 'ґ':'g'
 }
 =======
+=======
+>>>>>>> clean up
 };
 var UKRAINIAN_MAP = {
     'Є':'Ye', 'І':'I', 'Ї':'Yi', 'Ґ':'G', 'є':'ye', 'і':'i', 'ї':'yi', 'ґ':'g'
 };
->>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
+<<<<<<< HEAD
+>>>>>>> clean up
+=======
+>>>>>>> clean up
 var CZECH_MAP = {
     'č':'c', 'ď':'d', 'ě':'e', 'ň': 'n', 'ř':'r', 'š':'s', 'ť':'t', 'ů':'u',
     'ž':'z', 'Č':'C', 'Ď':'D', 'Ě':'E', 'Ň': 'N', 'Ř':'R', 'Š':'S', 'Ť':'T',
     'Ů':'U', 'Ž':'Z'
+<<<<<<< HEAD
 <<<<<<< HEAD
 }
 
@@ -146,6 +165,8 @@ downcode= function( slug )
     }
     return downcoded;
 =======
+=======
+>>>>>>> clean up
 };
 var POLISH_MAP = {
     'ą':'a', 'ć':'c', 'ę':'e', 'ł':'l', 'ń':'n', 'ó':'o', 'ś':'s', 'ź':'z',
@@ -223,7 +244,10 @@ function downcode(slug) {
     return slug.replace(Downcoder.regex, function(m) {
         return Downcoder.map[m];
     });
->>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
+<<<<<<< HEAD
+>>>>>>> clean up
+=======
+>>>>>>> clean up
 }
 
 
@@ -232,19 +256,25 @@ function URLify(s, num_chars) {
     // remove all these words from the string before urlifying
     s = downcode(s);
 <<<<<<< HEAD
+<<<<<<< HEAD
     removelist = ["a", "an", "as", "at", "before", "but", "by", "for", "from",
                   "is", "in", "into", "like", "of", "off", "on", "onto", "per",
                   "since", "than", "the", "this", "that", "to", "up", "via",
                   "with"];
     r = new RegExp('\\b(' + removelist.join('|') + ')\\b', 'gi');
 =======
+=======
+>>>>>>> clean up
     var removelist = [
         "a", "an", "as", "at", "before", "but", "by", "for", "from", "is",
         "in", "into", "like", "of", "off", "on", "onto", "per", "since",
         "than", "the", "this", "that", "to", "up", "via", "with"
     ];
     var r = new RegExp('\\b(' + removelist.join('|') + ')\\b', 'gi');
->>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
+<<<<<<< HEAD
+>>>>>>> clean up
+=======
+>>>>>>> clean up
     s = s.replace(r, '');
     // if downcode doesn't hit, the char will be stripped here
     s = s.replace(/[^-\w\s]/g, '');  // remove unneeded chars
@@ -254,6 +284,9 @@ function URLify(s, num_chars) {
     return s.substring(0, num_chars);// trim to first num_chars chars
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
->>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
+>>>>>>> clean up
+=======
+>>>>>>> clean up

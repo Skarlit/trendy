@@ -28,10 +28,14 @@ a img {
 
 a.section:link, a.section:visited {
 <<<<<<< HEAD
+<<<<<<< HEAD
     color: white;
 =======
     color: #fff;
->>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
+>>>>>>> clean up
+=======
+    color: #fff;
+>>>>>>> clean up
     text-decoration: none;
 }
 
@@ -309,10 +313,14 @@ tr.alt {
 
 .row2 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     background: white;
 =======
     background: #fff;
->>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
+>>>>>>> clean up
+=======
+    background: #fff;
+>>>>>>> clean up
 }
 
 /* SORTABLE TABLES */
@@ -332,10 +340,14 @@ thead th.sorted {
 
 thead th.sorted .text {
 <<<<<<< HEAD
+<<<<<<< HEAD
 	padding-right: 42px;
 =======
     padding-right: 42px;
->>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
+>>>>>>> clean up
+=======
+    padding-right: 42px;
+>>>>>>> clean up
 }
 
 table thead th .text span {
@@ -351,10 +363,14 @@ table thead th .text a {
 
 table thead th.sortable:hover {
 <<<<<<< HEAD
+<<<<<<< HEAD
     background: white url(../img/nav-bg-reverse.gif) 0 -5px repeat-x;
 =======
     background: #fff url(../img/nav-bg-reverse.gif) 0 -5px repeat-x;
->>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
+>>>>>>> clean up
+=======
+    background: #fff url(../img/nav-bg-reverse.gif) 0 -5px repeat-x;
+>>>>>>> clean up
 }
 
 thead th.sorted a.sortremove {
@@ -449,10 +465,14 @@ textarea, select, .vTextField {
 
 .button, input[type=submit], input[type=button], .submit-row input {
 <<<<<<< HEAD
+<<<<<<< HEAD
     background: white url(../img/nav-bg.gif) bottom repeat-x;
 =======
     background: #fff url(../img/nav-bg.gif) bottom repeat-x;
->>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
+>>>>>>> clean up
+=======
+    background: #fff url(../img/nav-bg.gif) bottom repeat-x;
+>>>>>>> clean up
     padding: 3px 5px;
     color: black;
     border: 1px solid #bbb;
@@ -466,6 +486,7 @@ textarea, select, .vTextField {
 
 .button[disabled], input[type=submit][disabled], input[type=button][disabled] {
 <<<<<<< HEAD
+<<<<<<< HEAD
 	background-image: url(../img/nav-bg.gif);
 	background-position: bottom;
 	opacity: 0.4;
@@ -473,7 +494,12 @@ textarea, select, .vTextField {
     background-image: url(../img/nav-bg.gif);
     background-position: bottom;
     opacity: 0.4;
->>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
+>>>>>>> clean up
+=======
+    background-image: url(../img/nav-bg.gif);
+    background-position: bottom;
+    opacity: 0.4;
+>>>>>>> clean up
 }
 
 .button.default, input[type=submit].default, .submit-row input.default {
@@ -481,10 +507,14 @@ textarea, select, .vTextField {
     background: #7CA0C7 url(../img/default-bg.gif) bottom repeat-x;
     font-weight: bold;
 <<<<<<< HEAD
+<<<<<<< HEAD
     color: white;
 =======
     color: #fff;
->>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
+>>>>>>> clean up
+=======
+    color: #fff;
+>>>>>>> clean up
     float: right;
 }
 
@@ -495,6 +525,7 @@ textarea, select, .vTextField {
 
 .button[disabled].default, input[type=submit][disabled].default, input[type=button][disabled].default {
 <<<<<<< HEAD
+<<<<<<< HEAD
 	background-image: url(../img/default-bg.gif);
 	background-position: bottom;
 	opacity: 0.4;
@@ -502,7 +533,12 @@ textarea, select, .vTextField {
     background-image: url(../img/default-bg.gif);
     background-position: bottom;
     opacity: 0.4;
->>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
+>>>>>>> clean up
+=======
+    background-image: url(../img/default-bg.gif);
+    background-position: bottom;
+    opacity: 0.4;
+>>>>>>> clean up
 }
 
 
@@ -512,10 +548,14 @@ textarea, select, .vTextField {
     border: 1px solid #ccc;
     margin-bottom: 5px;
 <<<<<<< HEAD
+<<<<<<< HEAD
     background: white;
 =======
     background: #fff;
->>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
+>>>>>>> clean up
+=======
+    background: #fff;
+>>>>>>> clean up
 }
 
 .module p, .module ul, .module h3, .module h4, .module dl, .module pre {
@@ -543,10 +583,14 @@ textarea, select, .vTextField {
     font-weight: bold;
     background: #7CA0C7 url(../img/default-bg.gif) top left repeat-x;
 <<<<<<< HEAD
+<<<<<<< HEAD
     color: white;
 =======
     color: #fff;
->>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
+>>>>>>> clean up
+=======
+    color: #fff;
+>>>>>>> clean up
 }
 
 .module table {
@@ -557,15 +601,20 @@ textarea, select, .vTextField {
 
 ul.messagelist {
 <<<<<<< HEAD
+<<<<<<< HEAD
     padding: 0 0 5px 0;
 =======
     padding: 0;
->>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
+>>>>>>> clean up
+=======
+    padding: 0;
+>>>>>>> clean up
     margin: 0;
 }
 
 ul.messagelist li {
     font-size: 12px;
+<<<<<<< HEAD
 <<<<<<< HEAD
     display: block;
     padding: 4px 5px 4px 25px;
@@ -582,6 +631,8 @@ ul.messagelist li.warning{
 ul.messagelist li.error{
     background-image: url(../img/icon_error.gif);
 =======
+=======
+>>>>>>> clean up
     font-weight: bold;
     display: block;
     padding: 5px 5px 4px 25px;
@@ -597,11 +648,15 @@ ul.messagelist li.warning {
 
 ul.messagelist li.error {
     background: #ffefef url(../img/icon_error.gif) 5px .3em no-repeat;
->>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
+<<<<<<< HEAD
+>>>>>>> clean up
+=======
+>>>>>>> clean up
 }
 
 .errornote {
     font-size: 12px !important;
+<<<<<<< HEAD
 <<<<<<< HEAD
     display: block;
     padding: 4px 5px 4px 25px;
@@ -629,6 +684,8 @@ ul.errorlist {
 .errorlist li a {
  	color: white;
 =======
+=======
+>>>>>>> clean up
     font-weight: bold;
     display: block;
     padding: 5px 5px 4px 25px;
@@ -662,7 +719,10 @@ ul.errorlist li:first-child {
 
 ul.errorlist li a {
     color: #fff;
->>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
+<<<<<<< HEAD
+>>>>>>> clean up
+=======
+>>>>>>> clean up
     text-decoration: underline;
 }
 
@@ -676,6 +736,7 @@ td ul.errorlist li {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .errors {
     background: #ffc;
 }
@@ -683,6 +744,8 @@ td ul.errorlist li {
 .errors input, .errors select, .errors textarea {
     border: 1px solid red;
 =======
+=======
+>>>>>>> clean up
 .errors, .form-row.errors {
     background: #ffefef;
 }
@@ -694,7 +757,10 @@ td ul.errorlist li {
 
 .errors input, .errors select, .errors textarea {
     border: 1px solid #c11;
->>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
+<<<<<<< HEAD
+>>>>>>> clean up
+=======
+>>>>>>> clean up
 }
 
 div.system-message {
@@ -708,12 +774,17 @@ div.system-message p.system-message-title {
     padding: 4px 5px 4px 25px;
     margin: 0;
 <<<<<<< HEAD
+<<<<<<< HEAD
     color: red;
     background: #ffc url(../img/icon_error.gif) 5px .3em no-repeat;
 =======
     color: #c11;
     background: #ffefef url(../img/icon_error.gif) 5px .3em no-repeat;
->>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
+>>>>>>> clean up
+=======
+    color: #c11;
+    background: #ffefef url(../img/icon_error.gif) 5px .3em no-repeat;
+>>>>>>> clean up
 }
 
 .description {
@@ -725,6 +796,7 @@ div.system-message p.system-message-title {
 
 div.breadcrumbs {
 <<<<<<< HEAD
+<<<<<<< HEAD
     background: white url(../img/nav-bg-reverse.gif) 0 -10px repeat-x;
     padding: 2px 8px 3px 8px;
     font-size: 11px;
@@ -732,13 +804,18 @@ div.breadcrumbs {
     border-top: 1px solid white;
     border-bottom: 1px solid #ccc;
 =======
+=======
+>>>>>>> clean up
     background: #fff url(../img/nav-bg-reverse.gif) 0 -10px repeat-x;
     padding: 2px 8px 3px 8px;
     font-size: 11px;
     color: #999;
     border-top: 1px solid #fff;
     border-bottom: 1px solid #ddd;
->>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
+<<<<<<< HEAD
+>>>>>>> clean up
+=======
+>>>>>>> clean up
     text-align: left;
 }
 
@@ -792,6 +869,7 @@ a.deletelink:hover {
     display: block;
     float: left;
 <<<<<<< HEAD
+<<<<<<< HEAD
     background: url(../img/tool-left.gif) 0 0 no-repeat;
     padding: 0 0 0 8px;
     margin-left: 2px;
@@ -801,18 +879,24 @@ a.deletelink:hover {
 .object-tools li:hover {
     background: url(../img/tool-left_over.gif) 0 0 no-repeat;
 =======
+=======
+>>>>>>> clean up
     margin-left: 5px;
     height: 16px;
 }
 
 .object-tools a {
     border-radius: 15px;
->>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
+<<<<<<< HEAD
+>>>>>>> clean up
+=======
+>>>>>>> clean up
 }
 
 .object-tools a:link, .object-tools a:visited {
     display: block;
     float: left;
+<<<<<<< HEAD
 <<<<<<< HEAD
     color: white;
     padding: .1em 14px .1em 8px;
@@ -841,6 +925,8 @@ a.deletelink:hover {
 .object-tools a.addlink:hover {
     background: #5b80b2 url(../img/tooltag-add_over.gif) top right no-repeat;
 =======
+=======
+>>>>>>> clean up
     color: #fff;
     padding: .2em 10px;
     background: #999;
@@ -858,7 +944,10 @@ a.deletelink:hover {
 .object-tools a.addlink {
     background: #999 url(../img/tooltag-add.png) 95% center no-repeat;
     padding-right: 26px;
->>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
+<<<<<<< HEAD
+>>>>>>> clean up
+=======
+>>>>>>> clean up
 }
 
 /* OBJECT HISTORY */
@@ -885,12 +974,15 @@ table#change-history tbody th {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #header {
     width: 100%;
 }
 
 =======
->>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
+>>>>>>> clean up
+=======
+>>>>>>> clean up
 #content-main {
     float: left;
     width: 100%;
@@ -946,9 +1038,13 @@ table#change-history tbody th {
 
 #header {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     width: 100%;
->>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
+>>>>>>> clean up
+=======
+    width: 100%;
+>>>>>>> clean up
     background: #417690;
     color: #ffc;
     overflow: hidden;
@@ -956,10 +1052,14 @@ table#change-history tbody th {
 
 #header a:link, #header a:visited {
 <<<<<<< HEAD
+<<<<<<< HEAD
     color: white;
 =======
     color: #fff;
->>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
+>>>>>>> clean up
+=======
+    color: #fff;
+>>>>>>> clean up
 }
 
 #header a:hover {
@@ -967,22 +1067,34 @@ table#change-history tbody th {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #branding {
     float: left;
 }
->>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
+>>>>>>> clean up
+=======
+#branding {
+    float: left;
+}
+>>>>>>> clean up
 #branding h1 {
     padding: 0 10px;
     font-size: 18px;
     margin: 8px 0;
     font-weight: normal;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 }
 
 #branding h1, #branding h1 a:link, #branding h1 a:visited {
->>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
+>>>>>>> clean up
+=======
+}
+
+#branding h1, #branding h1 a:link, #branding h1 a:visited {
+>>>>>>> clean up
     color: #f4f379;
 }
 
@@ -995,18 +1107,24 @@ table#change-history tbody th {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #user-tools {
     position: absolute;
     top: 0;
     right: 0;
 =======
+=======
+>>>>>>> clean up
 #branding a:hover {
     text-decoration: none;
 }
 
 #user-tools {
     float: right;
->>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
+<<<<<<< HEAD
+>>>>>>> clean up
+=======
+>>>>>>> clean up
     padding: 1.2em 10px;
     font-size: 11px;
     text-align: right;
@@ -1029,6 +1147,9 @@ table#change-history tbody th {
     color: #666;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
->>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
+>>>>>>> clean up
+=======
+>>>>>>> clean up

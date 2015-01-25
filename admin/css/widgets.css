@@ -55,12 +55,17 @@
     float: left;
     width: 22px;
 <<<<<<< HEAD
+<<<<<<< HEAD
     height: 50px;
     background: url(../img/chooser-bg.gif) top center no-repeat;
 =======
     background-color: #eee;
     border-radius: 10px;
->>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
+>>>>>>> clean up
+=======
+    background-color: #eee;
+    border-radius: 10px;
+>>>>>>> clean up
     margin: 10em 5px 0 5px;
     padding: 0;
 }
@@ -175,11 +180,16 @@ a.active.selector-clearall {
     width: 50px;
     margin: 0 0 3px 40%;
 <<<<<<< HEAD
+<<<<<<< HEAD
     background: url(../img/chooser_stacked-bg.gif) top center no-repeat;
 =======
     background-color: #eee;
     border-radius: 10px;
->>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
+>>>>>>> clean up
+=======
+    background-color: #eee;
+    border-radius: 10px;
+>>>>>>> clean up
 }
 
 .stacked .selector-chooser li {
@@ -586,6 +596,9 @@ ul.orderer li.deleted:hover, ul.orderer li.deleted a.selector:hover {
     border-top: 1px solid #ddd;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
->>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
+>>>>>>> clean up
+=======
+>>>>>>> clean up
