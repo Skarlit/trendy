@@ -20,6 +20,6 @@ urlpatterns = patterns('',
     url(r'^accounts/invalid/$', 'invalid_login'),
     url(r'^accounts/register/$', 'register_user'),
     url(r'^accounts/register_success/$', 'register_success'),
-) + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+)
 
 urlpatterns += staticfiles_urlpatterns()

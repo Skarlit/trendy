@@ -1,4 +1,9 @@
 (function($) {
+<<<<<<< HEAD
+=======
+	var lastChecked;
+
+>>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
 	$.fn.actions = function(opts) {
 		var options = $.extend({}, $.fn.actions.defaults, opts);
 		var actionCheckboxes = $(this);
@@ -14,12 +19,21 @@
 		},
 		updateCounter = function() {
 			var sel = $(actionCheckboxes).filter(":checked").length;
+<<<<<<< HEAD
+=======
+			// _actions_icnt is defined in the generated HTML
+			// and contains the total amount of objects in the queryset
+>>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
 			$(options.counterContainer).html(interpolate(
 			ngettext('%(sel)s of %(cnt)s selected', '%(sel)s of %(cnt)s selected', sel), {
 				sel: sel,
 				cnt: _actions_icnt
 			}, true));
 			$(options.allToggle).prop("checked", function() {
+<<<<<<< HEAD
+=======
+				var value;
+>>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
 				if (sel == actionCheckboxes.length) {
 					value = true;
 					showQuestion();
@@ -67,12 +81,20 @@
 			checker($(this).prop("checked"));
 			updateCounter();
 		});
+<<<<<<< HEAD
 		$("div.actions span.question a").click(function(event) {
+=======
+		$("a", options.acrossQuestions).click(function(event) {
+>>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
 			event.preventDefault();
 			$(options.acrossInput).val(1);
 			showClear();
 		});
+<<<<<<< HEAD
 		$("div.actions span.clear a").click(function(event) {
+=======
+		$("a", options.acrossClears).click(function(event) {
+>>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
 			event.preventDefault();
 			$(options.allToggle).prop("checked", false);
 			clearAcross();
@@ -111,7 +133,11 @@
 		});
 		$('form#changelist-form input[name="_save"]').click(function(event) {
 			var action_changed = false;
+<<<<<<< HEAD
 			$('div.actions select option:selected').each(function() {
+=======
+			$('select option:selected', options.actionContainer).each(function() {
+>>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
 				if ($(this).val()) {
 					action_changed = true;
 				}

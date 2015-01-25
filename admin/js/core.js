@@ -35,10 +35,17 @@ function cancelEventPropagation(e) {
     if (e.stopPropagation) e.stopPropagation();
 }
 
+<<<<<<< HEAD
 // quickElement(tagType, parentReference, textInChildNode, [, attribute, attributeValue ...]);
 function quickElement() {
     var obj = document.createElement(arguments[0]);
     if (arguments[2] != '' && arguments[2] != null) {
+=======
+// quickElement(tagType, parentReference [, textInChildNode, attribute, attributeValue ...]);
+function quickElement() {
+    var obj = document.createElement(arguments[0]);
+    if (arguments[2]) {
+>>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
         var textNode = document.createTextNode(arguments[2]);
         obj.appendChild(textNode);
     }
