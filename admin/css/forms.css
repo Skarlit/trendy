@@ -18,6 +18,13 @@ form .form-row p {
     font-size: 11px;
 }
 
+<<<<<<< HEAD
+=======
+.hidden {
+    display: none;
+}
+
+>>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
 /* FORM LABELS */
 
 form h4 {
@@ -203,6 +210,17 @@ body.popup .submit-row {
     margin-right: 2px;
 }
 
+<<<<<<< HEAD
+=======
+.vDateField {
+    min-width: 6.85em;
+}
+
+.vTimeField {
+    min-width: 4.7em;
+}
+
+>>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
 .vURLField {
     width: 30em;
 }

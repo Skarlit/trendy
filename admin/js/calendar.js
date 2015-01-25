@@ -27,13 +27,36 @@ var CalendarNamespace = {
         }
         return days;
     },
+<<<<<<< HEAD
     draw: function(month, year, div_id, callback) { // month = 1-12, year = 1-9999
+=======
+    draw: function(month, year, div_id, callback, selected) { // month = 1-12, year = 1-9999
+>>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
         var today = new Date();
         var todayDay = today.getDate();
         var todayMonth = today.getMonth()+1;
         var todayYear = today.getFullYear();
         var todayClass = '';
 
+<<<<<<< HEAD
+=======
+        // Use UTC functions here because the date field does not contain time
+        // and using the UTC function variants prevent the local time offset
+        // from altering the date, specifically the day field.  For example:
+        //
+        // ```
+        // var x = new Date('2013-10-02');
+        // var day = x.getDate();
+        // ```
+        //
+        // The day variable above will be 1 instead of 2 in, say, US Pacific time
+        // zone.
+        var isSelectedMonth = false;
+        if (typeof selected != 'undefined') {
+            isSelectedMonth = (selected.getUTCFullYear() == year && (selected.getUTCMonth()+1) == month);
+        }
+
+>>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
         month = parseInt(month);
         year = parseInt(year);
         var calDiv = document.getElementById(div_id);
@@ -55,7 +78,11 @@ var CalendarNamespace = {
         tableRow = quickElement('tr', tableBody);
         for (var i = 0; i < startingPos; i++) {
             var _cell = quickElement('td', tableRow, ' ');
+<<<<<<< HEAD
             _cell.style.backgroundColor = '#f3f3f3';
+=======
+            _cell.className = "nonday";
+>>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
         }
 
         // Draw days of month
@@ -69,6 +96,16 @@ var CalendarNamespace = {
             } else {
                 todayClass='';
             }
+<<<<<<< HEAD
+=======
+
+            // use UTC function; see above for explanation.
+            if (isSelectedMonth && currentDay == selected.getUTCDate()) {
+                if (todayClass != '') todayClass += " ";
+                todayClass += "selected";
+            }
+
+>>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
             var cell = quickElement('td', tableRow, '', 'class', todayClass);
 
             quickElement('a', cell, currentDay, 'href', 'javascript:void(' + callback + '('+year+','+month+','+currentDay+'));');
@@ -78,7 +115,11 @@ var CalendarNamespace = {
         // Draw blanks after end of month (optional, but makes for valid code)
         while (tableRow.childNodes.length < 7) {
             var _cell = quickElement('td', tableRow, ' ');
+<<<<<<< HEAD
             _cell.style.backgroundColor = '#f3f3f3';
+=======
+            _cell.className = "nonday";
+>>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
         }
 
         calDiv.appendChild(calTable);
@@ -86,7 +127,11 @@ var CalendarNamespace = {
 }
 
 // Calendar -- A calendar instance
+<<<<<<< HEAD
 function Calendar(div_id, callback) {
+=======
+function Calendar(div_id, callback, selected) {
+>>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
     // div_id (string) is the ID of the element in which the calendar will
     //     be displayed
     // callback (string) is the name of a JavaScript function that will be
@@ -97,6 +142,7 @@ function Calendar(div_id, callback) {
     this.today = new Date();
     this.currentMonth = this.today.getMonth() + 1;
     this.currentYear = this.today.getFullYear();
+<<<<<<< HEAD
 }
 Calendar.prototype = {
     drawCurrent: function() {
@@ -105,6 +151,24 @@ Calendar.prototype = {
     drawDate: function(month, year) {
         this.currentMonth = month;
         this.currentYear = year;
+=======
+    if (typeof selected != 'undefined') {
+        this.selected = selected;
+    }
+}
+Calendar.prototype = {
+    drawCurrent: function() {
+        CalendarNamespace.draw(this.currentMonth, this.currentYear, this.div_id, this.callback, this.selected);
+    },
+    drawDate: function(month, year, selected) {
+        this.currentMonth = month;
+        this.currentYear = year;
+
+        if(selected) {
+            this.selected = selected;
+        }
+
+>>>>>>> 269a2071d6feb49cf07e9c74ce8f33b6f170f553
         this.drawCurrent();
     },
     drawPreviousMonth: function() {
