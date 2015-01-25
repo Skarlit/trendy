@@ -1,0 +1,6 @@
+<script id="activity-template" type="backbone-template">
+  <% var keys = Object.keys(activity) %>
+  <% for(var i = 0; i < keys.length; i++) { %>
+    <br><%= keys[i] %> : <%= activity[keys[i]] %>
+  <% } %>
+</script>

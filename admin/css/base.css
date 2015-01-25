@@ -27,7 +27,11 @@ a img {
 }
 
 a.section:link, a.section:visited {
+<<<<<<< HEAD
     color: white;
+=======
+    color: #fff;
+>>>>>>> clean up
     text-decoration: none;
 }
 
@@ -304,7 +308,11 @@ tr.alt {
 }
 
 .row2 {
+<<<<<<< HEAD
     background: white;
+=======
+    background: #fff;
+>>>>>>> clean up
 }
 
 /* SORTABLE TABLES */
@@ -323,7 +331,11 @@ thead th.sorted {
 }
 
 thead th.sorted .text {
+<<<<<<< HEAD
 	padding-right: 42px;
+=======
+    padding-right: 42px;
+>>>>>>> clean up
 }
 
 table thead th .text span {
@@ -338,7 +350,11 @@ table thead th .text a {
 }
 
 table thead th.sortable:hover {
+<<<<<<< HEAD
     background: white url(../img/nav-bg-reverse.gif) 0 -5px repeat-x;
+=======
+    background: #fff url(../img/nav-bg-reverse.gif) 0 -5px repeat-x;
+>>>>>>> clean up
 }
 
 thead th.sorted a.sortremove {
@@ -432,7 +448,11 @@ textarea, select, .vTextField {
 /* FORM BUTTONS */
 
 .button, input[type=submit], input[type=button], .submit-row input {
+<<<<<<< HEAD
     background: white url(../img/nav-bg.gif) bottom repeat-x;
+=======
+    background: #fff url(../img/nav-bg.gif) bottom repeat-x;
+>>>>>>> clean up
     padding: 3px 5px;
     color: black;
     border: 1px solid #bbb;
@@ -445,16 +465,26 @@ textarea, select, .vTextField {
 }
 
 .button[disabled], input[type=submit][disabled], input[type=button][disabled] {
+<<<<<<< HEAD
 	background-image: url(../img/nav-bg.gif);
 	background-position: bottom;
 	opacity: 0.4;
+=======
+    background-image: url(../img/nav-bg.gif);
+    background-position: bottom;
+    opacity: 0.4;
+>>>>>>> clean up
 }
 
 .button.default, input[type=submit].default, .submit-row input.default {
     border: 2px solid #5b80b2;
     background: #7CA0C7 url(../img/default-bg.gif) bottom repeat-x;
     font-weight: bold;
+<<<<<<< HEAD
     color: white;
+=======
+    color: #fff;
+>>>>>>> clean up
     float: right;
 }
 
@@ -464,9 +494,15 @@ textarea, select, .vTextField {
 }
 
 .button[disabled].default, input[type=submit][disabled].default, input[type=button][disabled].default {
+<<<<<<< HEAD
 	background-image: url(../img/default-bg.gif);
 	background-position: bottom;
 	opacity: 0.4;
+=======
+    background-image: url(../img/default-bg.gif);
+    background-position: bottom;
+    opacity: 0.4;
+>>>>>>> clean up
 }
 
 
@@ -475,7 +511,11 @@ textarea, select, .vTextField {
 .module {
     border: 1px solid #ccc;
     margin-bottom: 5px;
+<<<<<<< HEAD
     background: white;
+=======
+    background: #fff;
+>>>>>>> clean up
 }
 
 .module p, .module ul, .module h3, .module h4, .module dl, .module pre {
@@ -502,7 +542,11 @@ textarea, select, .vTextField {
     text-align: left;
     font-weight: bold;
     background: #7CA0C7 url(../img/default-bg.gif) top left repeat-x;
+<<<<<<< HEAD
     color: white;
+=======
+    color: #fff;
+>>>>>>> clean up
 }
 
 .module table {
@@ -512,12 +556,17 @@ textarea, select, .vTextField {
 /* MESSAGES & ERRORS */
 
 ul.messagelist {
+<<<<<<< HEAD
     padding: 0 0 5px 0;
+=======
+    padding: 0;
+>>>>>>> clean up
     margin: 0;
 }
 
 ul.messagelist li {
     font-size: 12px;
+<<<<<<< HEAD
     display: block;
     padding: 4px 5px 4px 25px;
     margin: 0 0 3px 0;
@@ -532,10 +581,28 @@ ul.messagelist li.warning{
 
 ul.messagelist li.error{
     background-image: url(../img/icon_error.gif);
+=======
+    font-weight: bold;
+    display: block;
+    padding: 5px 5px 4px 25px;
+    margin: 0 0 3px 0;
+    border-bottom: 1px solid #ddd;
+    color: #666;
+    background: #dfd url(../img/icon_success.gif) 5px .3em no-repeat;
+}
+
+ul.messagelist li.warning {
+    background: #ffc url(../img/icon_alert.gif) 5px .3em no-repeat;
+}
+
+ul.messagelist li.error {
+    background: #ffefef url(../img/icon_error.gif) 5px .3em no-repeat;
+>>>>>>> clean up
 }
 
 .errornote {
     font-size: 12px !important;
+<<<<<<< HEAD
     display: block;
     padding: 4px 5px 4px 25px;
     margin: 0 0 3px 0;
@@ -561,6 +628,41 @@ ul.errorlist {
 
 .errorlist li a {
  	color: white;
+=======
+    font-weight: bold;
+    display: block;
+    padding: 5px 5px 4px 25px;
+    margin: 0 0 3px 0;
+    border: 1px solid #c22;
+    color: #c11;
+    background: #ffefef url(../img/icon_error.gif) 5px .38em no-repeat;
+}
+
+.errornote, ul.errorlist {
+    border-radius: 1px;
+}
+
+ul.errorlist {
+    margin: 0 0 4px !important;
+    padding: 0 !important;
+    color: #fff;
+    background: #c11;
+}
+
+ul.errorlist li {
+    font-size: 12px !important;
+    display: block;
+    padding: 5px 5px 4px 7px;
+    margin: 3px 0 0 0;
+}
+
+ul.errorlist li:first-child {
+    margin-top: 0;
+}
+
+ul.errorlist li a {
+    color: #fff;
+>>>>>>> clean up
     text-decoration: underline;
 }
 
@@ -573,12 +675,26 @@ td ul.errorlist li {
     margin: 0 !important;
 }
 
+<<<<<<< HEAD
 .errors {
     background: #ffc;
 }
 
 .errors input, .errors select, .errors textarea {
     border: 1px solid red;
+=======
+.errors, .form-row.errors {
+    background: #ffefef;
+}
+
+.form-row.errors {
+    border: 1px solid #c22;
+    margin: -1px;
+}
+
+.errors input, .errors select, .errors textarea {
+    border: 1px solid #c11;
+>>>>>>> clean up
 }
 
 div.system-message {
@@ -591,8 +707,13 @@ div.system-message {
 div.system-message p.system-message-title {
     padding: 4px 5px 4px 25px;
     margin: 0;
+<<<<<<< HEAD
     color: red;
     background: #ffc url(../img/icon_error.gif) 5px .3em no-repeat;
+=======
+    color: #c11;
+    background: #ffefef url(../img/icon_error.gif) 5px .3em no-repeat;
+>>>>>>> clean up
 }
 
 .description {
@@ -603,12 +724,21 @@ div.system-message p.system-message-title {
 /* BREADCRUMBS */
 
 div.breadcrumbs {
+<<<<<<< HEAD
     background: white url(../img/nav-bg-reverse.gif) 0 -10px repeat-x;
     padding: 2px 8px 3px 8px;
     font-size: 11px;
     color: #999;
     border-top: 1px solid white;
     border-bottom: 1px solid #ccc;
+=======
+    background: #fff url(../img/nav-bg-reverse.gif) 0 -10px repeat-x;
+    padding: 2px 8px 3px 8px;
+    font-size: 11px;
+    color: #999;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #ddd;
+>>>>>>> clean up
     text-align: left;
 }
 
@@ -661,6 +791,7 @@ a.deletelink:hover {
 .object-tools li {
     display: block;
     float: left;
+<<<<<<< HEAD
     background: url(../img/tool-left.gif) 0 0 no-repeat;
     padding: 0 0 0 8px;
     margin-left: 2px;
@@ -669,11 +800,20 @@ a.deletelink:hover {
 
 .object-tools li:hover {
     background: url(../img/tool-left_over.gif) 0 0 no-repeat;
+=======
+    margin-left: 5px;
+    height: 16px;
+}
+
+.object-tools a {
+    border-radius: 15px;
+>>>>>>> clean up
 }
 
 .object-tools a:link, .object-tools a:visited {
     display: block;
     float: left;
+<<<<<<< HEAD
     color: white;
     padding: .1em 14px .1em 8px;
     height: 14px;
@@ -700,6 +840,25 @@ a.deletelink:hover {
 
 .object-tools a.addlink:hover {
     background: #5b80b2 url(../img/tooltag-add_over.gif) top right no-repeat;
+=======
+    color: #fff;
+    padding: .2em 10px;
+    background: #999;
+}
+
+.object-tools a:hover, .object-tools li:hover a {
+    background-color: #5b80b2;
+}
+
+.object-tools a.viewsitelink, .object-tools a.golink {
+    background: #999 url(../img/tooltag-arrowright.png) 95% center no-repeat;
+    padding-right: 26px;
+}
+
+.object-tools a.addlink {
+    background: #999 url(../img/tooltag-add.png) 95% center no-repeat;
+    padding-right: 26px;
+>>>>>>> clean up
 }
 
 /* OBJECT HISTORY */
@@ -725,10 +884,13 @@ table#change-history tbody th {
     margin: 10px 15px;
 }
 
+<<<<<<< HEAD
 #header {
     width: 100%;
 }
 
+=======
+>>>>>>> clean up
 #content-main {
     float: left;
     width: 100%;
@@ -783,24 +945,44 @@ table#change-history tbody th {
 /* HEADER */
 
 #header {
+<<<<<<< HEAD
+=======
+    width: 100%;
+>>>>>>> clean up
     background: #417690;
     color: #ffc;
     overflow: hidden;
 }
 
 #header a:link, #header a:visited {
+<<<<<<< HEAD
     color: white;
+=======
+    color: #fff;
+>>>>>>> clean up
 }
 
 #header a:hover {
     text-decoration: underline;
 }
 
+<<<<<<< HEAD
+=======
+#branding {
+    float: left;
+}
+>>>>>>> clean up
 #branding h1 {
     padding: 0 10px;
     font-size: 18px;
     margin: 8px 0;
     font-weight: normal;
+<<<<<<< HEAD
+=======
+}
+
+#branding h1, #branding h1 a:link, #branding h1 a:visited {
+>>>>>>> clean up
     color: #f4f379;
 }
 
@@ -812,10 +994,19 @@ table#change-history tbody th {
     color: #ffc;
 }
 
+<<<<<<< HEAD
 #user-tools {
     position: absolute;
     top: 0;
     right: 0;
+=======
+#branding a:hover {
+    text-decoration: none;
+}
+
+#user-tools {
+    float: right;
+>>>>>>> clean up
     padding: 1.2em 10px;
     font-size: 11px;
     text-align: right;
@@ -837,4 +1028,7 @@ table#change-history tbody th {
     background: #eee url(../img/nav-bg.gif) bottom left repeat-x;
     color: #666;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> clean up

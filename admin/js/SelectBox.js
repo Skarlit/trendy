@@ -16,7 +16,14 @@ var SelectBox = {
         for (var i = 0, j = SelectBox.cache[id].length; i < j; i++) {
             var node = SelectBox.cache[id][i];
             if (node.displayed) {
+<<<<<<< HEAD
                 box.options[box.options.length] = new Option(node.text, node.value, false, false);
+=======
+                var new_option = new Option(node.text, node.value, false, false);
+                // Shows a tooltip when hovering over the option
+                new_option.setAttribute("title", node.text);
+                box.options[box.options.length] = new_option;
+>>>>>>> clean up
             }
         }
     },

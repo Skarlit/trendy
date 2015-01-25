@@ -13,6 +13,7 @@ urlpatterns = patterns('',
     url(r'activities/', include('activity.urls')),  # this include the sub url file. ex: activities/all.
 
     # User auth urls
+    url(r'^$', 'index'),
     url(r'^accounts/login/$', 'login'),
     url(r'^accounts/auth/$', 'auth_view'),
     url(r'^accounts/logout/$', 'logout'),
