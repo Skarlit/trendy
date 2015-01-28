@@ -1,6 +1,14 @@
 (function($) {
+<<<<<<< HEAD
 	var lastChecked;
 
+=======
+<<<<<<< HEAD
+=======
+	var lastChecked;
+
+>>>>>>> clean up
+>>>>>>> Revert
 	$.fn.actions = function(opts) {
 		var options = $.extend({}, $.fn.actions.defaults, opts);
 		var actionCheckboxes = $(this);
@@ -16,15 +24,30 @@
 		},
 		updateCounter = function() {
 			var sel = $(actionCheckboxes).filter(":checked").length;
+<<<<<<< HEAD
 			// _actions_icnt is defined in the generated HTML
 			// and contains the total amount of objects in the queryset
+=======
+<<<<<<< HEAD
+=======
+			// _actions_icnt is defined in the generated HTML
+			// and contains the total amount of objects in the queryset
+>>>>>>> clean up
+>>>>>>> Revert
 			$(options.counterContainer).html(interpolate(
 			ngettext('%(sel)s of %(cnt)s selected', '%(sel)s of %(cnt)s selected', sel), {
 				sel: sel,
 				cnt: _actions_icnt
 			}, true));
 			$(options.allToggle).prop("checked", function() {
+<<<<<<< HEAD
 				var value;
+=======
+<<<<<<< HEAD
+=======
+				var value;
+>>>>>>> clean up
+>>>>>>> Revert
 				if (sel == actionCheckboxes.length) {
 					value = true;
 					showQuestion();
@@ -72,12 +95,28 @@
 			checker($(this).prop("checked"));
 			updateCounter();
 		});
+<<<<<<< HEAD
 		$("a", options.acrossQuestions).click(function(event) {
+=======
+<<<<<<< HEAD
+		$("div.actions span.question a").click(function(event) {
+=======
+		$("a", options.acrossQuestions).click(function(event) {
+>>>>>>> clean up
+>>>>>>> Revert
 			event.preventDefault();
 			$(options.acrossInput).val(1);
 			showClear();
 		});
+<<<<<<< HEAD
 		$("a", options.acrossClears).click(function(event) {
+=======
+<<<<<<< HEAD
+		$("div.actions span.clear a").click(function(event) {
+=======
+		$("a", options.acrossClears).click(function(event) {
+>>>>>>> clean up
+>>>>>>> Revert
 			event.preventDefault();
 			$(options.allToggle).prop("checked", false);
 			clearAcross();
@@ -116,7 +155,15 @@
 		});
 		$('form#changelist-form input[name="_save"]').click(function(event) {
 			var action_changed = false;
+<<<<<<< HEAD
 			$('select option:selected', options.actionContainer).each(function() {
+=======
+<<<<<<< HEAD
+			$('div.actions select option:selected').each(function() {
+=======
+			$('select option:selected', options.actionContainer).each(function() {
+>>>>>>> clean up
+>>>>>>> Revert
 				if ($(this).val()) {
 					action_changed = true;
 				}

@@ -35,10 +35,23 @@ function cancelEventPropagation(e) {
     if (e.stopPropagation) e.stopPropagation();
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+// quickElement(tagType, parentReference, textInChildNode, [, attribute, attributeValue ...]);
+function quickElement() {
+    var obj = document.createElement(arguments[0]);
+    if (arguments[2] != '' && arguments[2] != null) {
+=======
+>>>>>>> Revert
 // quickElement(tagType, parentReference [, textInChildNode, attribute, attributeValue ...]);
 function quickElement() {
     var obj = document.createElement(arguments[0]);
     if (arguments[2]) {
+<<<<<<< HEAD
+=======
+>>>>>>> clean up
+>>>>>>> Revert
         var textNode = document.createTextNode(arguments[2]);
         obj.appendChild(textNode);
     }

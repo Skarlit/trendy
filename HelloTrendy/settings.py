@@ -85,7 +85,6 @@ USE_L10N = True
 
 USE_TZ = True
 
-
 # Honor the 'X-Forwarded-Proto' header for request.is_secure()
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
@@ -102,14 +101,13 @@ STATIC_URL = '/static/'
 # Set up current root folder. Need to change it once deploy it on AWS.
 # In developing environment, it's start_up/HelloTrendy
 STATIC_ROOT = BASE_DIR
-print 'static path: ', os.path.join(BASE_DIR, STATIC_URL)
+
 # Additional locations of static files.
 STATICFILES_DIRS = (
     # os.path.join(BASE_DIR, STATIC_URL)
     ('', os.path.join(BASE_DIR, "static")),
     # ('', '/home/scarlet/Python/trendy/static'),
     # This is the place tell Django where is the static files where we created in the project.
-
     # Put strings here. like 'home/html/static' or 'C:/www/django/static'.
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths. No relative paths.

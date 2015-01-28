@@ -27,7 +27,15 @@ a img {
 }
 
 a.section:link, a.section:visited {
+<<<<<<< HEAD
     color: #fff;
+=======
+<<<<<<< HEAD
+    color: white;
+=======
+    color: #fff;
+>>>>>>> clean up
+>>>>>>> Revert
     text-decoration: none;
 }
 
@@ -304,7 +312,15 @@ tr.alt {
 }
 
 .row2 {
+<<<<<<< HEAD
     background: #fff;
+=======
+<<<<<<< HEAD
+    background: white;
+=======
+    background: #fff;
+>>>>>>> clean up
+>>>>>>> Revert
 }
 
 /* SORTABLE TABLES */
@@ -323,7 +339,15 @@ thead th.sorted {
 }
 
 thead th.sorted .text {
+<<<<<<< HEAD
     padding-right: 42px;
+=======
+<<<<<<< HEAD
+	padding-right: 42px;
+=======
+    padding-right: 42px;
+>>>>>>> clean up
+>>>>>>> Revert
 }
 
 table thead th .text span {
@@ -338,7 +362,15 @@ table thead th .text a {
 }
 
 table thead th.sortable:hover {
+<<<<<<< HEAD
     background: #fff url(../img/nav-bg-reverse.gif) 0 -5px repeat-x;
+=======
+<<<<<<< HEAD
+    background: white url(../img/nav-bg-reverse.gif) 0 -5px repeat-x;
+=======
+    background: #fff url(../img/nav-bg-reverse.gif) 0 -5px repeat-x;
+>>>>>>> clean up
+>>>>>>> Revert
 }
 
 thead th.sorted a.sortremove {
@@ -432,7 +464,15 @@ textarea, select, .vTextField {
 /* FORM BUTTONS */
 
 .button, input[type=submit], input[type=button], .submit-row input {
+<<<<<<< HEAD
     background: #fff url(../img/nav-bg.gif) bottom repeat-x;
+=======
+<<<<<<< HEAD
+    background: white url(../img/nav-bg.gif) bottom repeat-x;
+=======
+    background: #fff url(../img/nav-bg.gif) bottom repeat-x;
+>>>>>>> clean up
+>>>>>>> Revert
     padding: 3px 5px;
     color: black;
     border: 1px solid #bbb;
@@ -445,16 +485,36 @@ textarea, select, .vTextField {
 }
 
 .button[disabled], input[type=submit][disabled], input[type=button][disabled] {
+<<<<<<< HEAD
     background-image: url(../img/nav-bg.gif);
     background-position: bottom;
     opacity: 0.4;
+=======
+<<<<<<< HEAD
+	background-image: url(../img/nav-bg.gif);
+	background-position: bottom;
+	opacity: 0.4;
+=======
+    background-image: url(../img/nav-bg.gif);
+    background-position: bottom;
+    opacity: 0.4;
+>>>>>>> clean up
+>>>>>>> Revert
 }
 
 .button.default, input[type=submit].default, .submit-row input.default {
     border: 2px solid #5b80b2;
     background: #7CA0C7 url(../img/default-bg.gif) bottom repeat-x;
     font-weight: bold;
+<<<<<<< HEAD
     color: #fff;
+=======
+<<<<<<< HEAD
+    color: white;
+=======
+    color: #fff;
+>>>>>>> clean up
+>>>>>>> Revert
     float: right;
 }
 
@@ -464,9 +524,21 @@ textarea, select, .vTextField {
 }
 
 .button[disabled].default, input[type=submit][disabled].default, input[type=button][disabled].default {
+<<<<<<< HEAD
     background-image: url(../img/default-bg.gif);
     background-position: bottom;
     opacity: 0.4;
+=======
+<<<<<<< HEAD
+	background-image: url(../img/default-bg.gif);
+	background-position: bottom;
+	opacity: 0.4;
+=======
+    background-image: url(../img/default-bg.gif);
+    background-position: bottom;
+    opacity: 0.4;
+>>>>>>> clean up
+>>>>>>> Revert
 }
 
 
@@ -475,7 +547,15 @@ textarea, select, .vTextField {
 .module {
     border: 1px solid #ccc;
     margin-bottom: 5px;
+<<<<<<< HEAD
     background: #fff;
+=======
+<<<<<<< HEAD
+    background: white;
+=======
+    background: #fff;
+>>>>>>> clean up
+>>>>>>> Revert
 }
 
 .module p, .module ul, .module h3, .module h4, .module dl, .module pre {
@@ -502,7 +582,15 @@ textarea, select, .vTextField {
     text-align: left;
     font-weight: bold;
     background: #7CA0C7 url(../img/default-bg.gif) top left repeat-x;
+<<<<<<< HEAD
     color: #fff;
+=======
+<<<<<<< HEAD
+    color: white;
+=======
+    color: #fff;
+>>>>>>> clean up
+>>>>>>> Revert
 }
 
 .module table {
@@ -512,12 +600,39 @@ textarea, select, .vTextField {
 /* MESSAGES & ERRORS */
 
 ul.messagelist {
+<<<<<<< HEAD
     padding: 0;
+=======
+<<<<<<< HEAD
+    padding: 0 0 5px 0;
+=======
+    padding: 0;
+>>>>>>> clean up
+>>>>>>> Revert
     margin: 0;
 }
 
 ul.messagelist li {
     font-size: 12px;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    display: block;
+    padding: 4px 5px 4px 25px;
+    margin: 0 0 3px 0;
+    border-bottom: 1px solid #ddd;
+    color: #666;
+    background: #ffc url(../img/icon_success.gif) 5px .3em no-repeat;
+}
+
+ul.messagelist li.warning{
+    background-image: url(../img/icon_alert.gif);
+}
+
+ul.messagelist li.error{
+    background-image: url(../img/icon_error.gif);
+=======
+>>>>>>> Revert
     font-weight: bold;
     display: block;
     padding: 5px 5px 4px 25px;
@@ -533,10 +648,44 @@ ul.messagelist li.warning {
 
 ul.messagelist li.error {
     background: #ffefef url(../img/icon_error.gif) 5px .3em no-repeat;
+<<<<<<< HEAD
+=======
+>>>>>>> clean up
+>>>>>>> Revert
 }
 
 .errornote {
     font-size: 12px !important;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    display: block;
+    padding: 4px 5px 4px 25px;
+    margin: 0 0 3px 0;
+    border: 1px solid red;
+    color: red;
+    background: #ffc url(../img/icon_error.gif) 5px .3em no-repeat;
+}
+
+ul.errorlist {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.errorlist li {
+    font-size: 12px !important;
+    display: block;
+    padding: 4px 5px 4px 25px;
+    margin: 0 0 3px 0;
+    border: 1px solid red;
+    color: white;
+    background: red url(../img/icon_alert.gif) 5px .3em no-repeat;
+}
+
+.errorlist li a {
+ 	color: white;
+=======
+>>>>>>> Revert
     font-weight: bold;
     display: block;
     padding: 5px 5px 4px 25px;
@@ -570,6 +719,10 @@ ul.errorlist li:first-child {
 
 ul.errorlist li a {
     color: #fff;
+<<<<<<< HEAD
+=======
+>>>>>>> clean up
+>>>>>>> Revert
     text-decoration: underline;
 }
 
@@ -582,6 +735,17 @@ td ul.errorlist li {
     margin: 0 !important;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+.errors {
+    background: #ffc;
+}
+
+.errors input, .errors select, .errors textarea {
+    border: 1px solid red;
+=======
+>>>>>>> Revert
 .errors, .form-row.errors {
     background: #ffefef;
 }
@@ -593,6 +757,10 @@ td ul.errorlist li {
 
 .errors input, .errors select, .errors textarea {
     border: 1px solid #c11;
+<<<<<<< HEAD
+=======
+>>>>>>> clean up
+>>>>>>> Revert
 }
 
 div.system-message {
@@ -605,8 +773,18 @@ div.system-message {
 div.system-message p.system-message-title {
     padding: 4px 5px 4px 25px;
     margin: 0;
+<<<<<<< HEAD
     color: #c11;
     background: #ffefef url(../img/icon_error.gif) 5px .3em no-repeat;
+=======
+<<<<<<< HEAD
+    color: red;
+    background: #ffc url(../img/icon_error.gif) 5px .3em no-repeat;
+=======
+    color: #c11;
+    background: #ffefef url(../img/icon_error.gif) 5px .3em no-repeat;
+>>>>>>> clean up
+>>>>>>> Revert
 }
 
 .description {
@@ -617,12 +795,27 @@ div.system-message p.system-message-title {
 /* BREADCRUMBS */
 
 div.breadcrumbs {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    background: white url(../img/nav-bg-reverse.gif) 0 -10px repeat-x;
+    padding: 2px 8px 3px 8px;
+    font-size: 11px;
+    color: #999;
+    border-top: 1px solid white;
+    border-bottom: 1px solid #ccc;
+=======
+>>>>>>> Revert
     background: #fff url(../img/nav-bg-reverse.gif) 0 -10px repeat-x;
     padding: 2px 8px 3px 8px;
     font-size: 11px;
     color: #999;
     border-top: 1px solid #fff;
     border-bottom: 1px solid #ddd;
+<<<<<<< HEAD
+=======
+>>>>>>> clean up
+>>>>>>> Revert
     text-align: left;
 }
 
@@ -675,17 +868,65 @@ a.deletelink:hover {
 .object-tools li {
     display: block;
     float: left;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    background: url(../img/tool-left.gif) 0 0 no-repeat;
+    padding: 0 0 0 8px;
+    margin-left: 2px;
+    height: 16px;
+}
+
+.object-tools li:hover {
+    background: url(../img/tool-left_over.gif) 0 0 no-repeat;
+=======
+>>>>>>> Revert
     margin-left: 5px;
     height: 16px;
 }
 
 .object-tools a {
     border-radius: 15px;
+<<<<<<< HEAD
+=======
+>>>>>>> clean up
+>>>>>>> Revert
 }
 
 .object-tools a:link, .object-tools a:visited {
     display: block;
     float: left;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    color: white;
+    padding: .1em 14px .1em 8px;
+    height: 14px;
+    background: #999 url(../img/tool-right.gif) 100% 0 no-repeat;
+}
+
+.object-tools a:hover, .object-tools li:hover a {
+    background: #5b80b2 url(../img/tool-right_over.gif) 100% 0 no-repeat;
+}
+
+.object-tools a.viewsitelink, .object-tools a.golink {
+    background: #999 url(../img/tooltag-arrowright.gif) top right no-repeat;
+    padding-right: 28px;
+}
+
+.object-tools a.viewsitelink:hover, .object-tools a.golink:hover {
+    background: #5b80b2 url(../img/tooltag-arrowright_over.gif) top right no-repeat;
+}
+
+.object-tools a.addlink {
+    background: #999 url(../img/tooltag-add.gif) top right no-repeat;
+    padding-right: 28px;
+}
+
+.object-tools a.addlink:hover {
+    background: #5b80b2 url(../img/tooltag-add_over.gif) top right no-repeat;
+=======
+>>>>>>> Revert
     color: #fff;
     padding: .2em 10px;
     background: #999;
@@ -703,6 +944,10 @@ a.deletelink:hover {
 .object-tools a.addlink {
     background: #999 url(../img/tooltag-add.png) 95% center no-repeat;
     padding-right: 26px;
+<<<<<<< HEAD
+=======
+>>>>>>> clean up
+>>>>>>> Revert
 }
 
 /* OBJECT HISTORY */
@@ -728,6 +973,16 @@ table#change-history tbody th {
     margin: 10px 15px;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+#header {
+    width: 100%;
+}
+
+=======
+>>>>>>> clean up
+>>>>>>> Revert
 #content-main {
     float: left;
     width: 100%;
@@ -782,31 +1037,64 @@ table#change-history tbody th {
 /* HEADER */
 
 #header {
+<<<<<<< HEAD
     width: 100%;
+=======
+<<<<<<< HEAD
+=======
+    width: 100%;
+>>>>>>> clean up
+>>>>>>> Revert
     background: #417690;
     color: #ffc;
     overflow: hidden;
 }
 
 #header a:link, #header a:visited {
+<<<<<<< HEAD
     color: #fff;
+=======
+<<<<<<< HEAD
+    color: white;
+=======
+    color: #fff;
+>>>>>>> clean up
+>>>>>>> Revert
 }
 
 #header a:hover {
     text-decoration: underline;
 }
 
+<<<<<<< HEAD
 #branding {
     float: left;
 }
+=======
+<<<<<<< HEAD
+=======
+#branding {
+    float: left;
+}
+>>>>>>> clean up
+>>>>>>> Revert
 #branding h1 {
     padding: 0 10px;
     font-size: 18px;
     margin: 8px 0;
     font-weight: normal;
+<<<<<<< HEAD
 }
 
 #branding h1, #branding h1 a:link, #branding h1 a:visited {
+=======
+<<<<<<< HEAD
+=======
+}
+
+#branding h1, #branding h1 a:link, #branding h1 a:visited {
+>>>>>>> clean up
+>>>>>>> Revert
     color: #f4f379;
 }
 
@@ -818,12 +1106,25 @@ table#change-history tbody th {
     color: #ffc;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+#user-tools {
+    position: absolute;
+    top: 0;
+    right: 0;
+=======
+>>>>>>> Revert
 #branding a:hover {
     text-decoration: none;
 }
 
 #user-tools {
     float: right;
+<<<<<<< HEAD
+=======
+>>>>>>> clean up
+>>>>>>> Revert
     padding: 1.2em 10px;
     font-size: 11px;
     text-align: right;
@@ -845,3 +1146,10 @@ table#change-history tbody th {
     background: #eee url(../img/nav-bg.gif) bottom left repeat-x;
     color: #666;
 }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> clean up
+>>>>>>> Revert

@@ -63,3 +63,6 @@ def hello(request):
     html = '<html><body>Hi %s</body></html>' % name
 
     return HttpResponse(html)
+
+def index(request):
+    return render(request, 'index.html')

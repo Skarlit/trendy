@@ -3,6 +3,20 @@ var LATIN_MAP = {
     'C', 'È': 'E', 'É': 'E', 'Ê': 'E', 'Ë': 'E', 'Ì': 'I', 'Í': 'I', 'Î': 'I',
     'Ï': 'I', 'Ð': 'D', 'Ñ': 'N', 'Ò': 'O', 'Ó': 'O', 'Ô': 'O', 'Õ': 'O', 'Ö':
     'O', 'Ő': 'O', 'Ø': 'O', 'Ù': 'U', 'Ú': 'U', 'Û': 'U', 'Ü': 'U', 'Ű': 'U',
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    'Ý': 'Y', 'Þ': 'TH', 'ß': 'ss', 'à':'a', 'á':'a', 'â': 'a', 'ã': 'a', 'ä':
+    'a', 'å': 'a', 'æ': 'ae', 'ç': 'c', 'è': 'e', 'é': 'e', 'ê': 'e', 'ë': 'e',
+    'ì': 'i', 'í': 'i', 'î': 'i', 'ï': 'i', 'ð': 'd', 'ñ': 'n', 'ò': 'o', 'ó':
+    'o', 'ô': 'o', 'õ': 'o', 'ö': 'o', 'ő': 'o', 'ø': 'o', 'ù': 'u', 'ú': 'u',
+    'û': 'u', 'ü': 'u', 'ű': 'u', 'ý': 'y', 'þ': 'th', 'ÿ': 'y'
+}
+var LATIN_SYMBOLS_MAP = {
+    '©':'(c)'
+}
+=======
+>>>>>>> Revert
     'Ý': 'Y', 'Þ': 'TH', 'Ÿ': 'Y', 'ß': 'ss', 'à':'a', 'á':'a', 'â': 'a', 'ã':
     'a', 'ä': 'a', 'å': 'a', 'æ': 'ae', 'ç': 'c', 'è': 'e', 'é': 'e', 'ê': 'e',
     'ë': 'e', 'ì': 'i', 'í': 'i', 'î': 'i', 'ï': 'i', 'ð': 'd', 'ñ': 'n', 'ò':
@@ -12,6 +26,10 @@ var LATIN_MAP = {
 var LATIN_SYMBOLS_MAP = {
     '©':'(c)'
 };
+<<<<<<< HEAD
+=======
+>>>>>>> clean up
+>>>>>>> Revert
 var GREEK_MAP = {
     'α':'a', 'β':'b', 'γ':'g', 'δ':'d', 'ε':'e', 'ζ':'z', 'η':'h', 'θ':'8',
     'ι':'i', 'κ':'k', 'λ':'l', 'μ':'m', 'ν':'n', 'ξ':'3', 'ο':'o', 'π':'p',
@@ -23,11 +41,25 @@ var GREEK_MAP = {
     'Ρ':'R', 'Σ':'S', 'Τ':'T', 'Υ':'Y', 'Φ':'F', 'Χ':'X', 'Ψ':'PS', 'Ω':'W',
     'Ά':'A', 'Έ':'E', 'Ί':'I', 'Ό':'O', 'Ύ':'Y', 'Ή':'H', 'Ώ':'W', 'Ϊ':'I',
     'Ϋ':'Y'
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+}
+var TURKISH_MAP = {
+    'ş':'s', 'Ş':'S', 'ı':'i', 'İ':'I', 'ç':'c', 'Ç':'C', 'ü':'u', 'Ü':'U',
+    'ö':'o', 'Ö':'O', 'ğ':'g', 'Ğ':'G'
+}
+=======
+>>>>>>> Revert
 };
 var TURKISH_MAP = {
     'ş':'s', 'Ş':'S', 'ı':'i', 'İ':'I', 'ç':'c', 'Ç':'C', 'ü':'u', 'Ü':'U',
     'ö':'o', 'Ö':'O', 'ğ':'g', 'Ğ':'G'
 };
+<<<<<<< HEAD
+=======
+>>>>>>> clean up
+>>>>>>> Revert
 var RUSSIAN_MAP = {
     'а':'a', 'б':'b', 'в':'v', 'г':'g', 'д':'d', 'е':'e', 'ё':'yo', 'ж':'zh',
     'з':'z', 'и':'i', 'й':'j', 'к':'k', 'л':'l', 'м':'m', 'н':'n', 'о':'o',
@@ -39,14 +71,102 @@ var RUSSIAN_MAP = {
     'П':'P', 'Р':'R', 'С':'S', 'Т':'T', 'У':'U', 'Ф':'F', 'Х':'H', 'Ц':'C',
     'Ч':'Ch', 'Ш':'Sh', 'Щ':'Sh', 'Ъ':'', 'Ы':'Y', 'Ь':'', 'Э':'E', 'Ю':'Yu',
     'Я':'Ya'
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+}
+var UKRAINIAN_MAP = {
+    'Є':'Ye', 'І':'I', 'Ї':'Yi', 'Ґ':'G', 'є':'ye', 'і':'i', 'ї':'yi', 'ґ':'g'
+}
+=======
+>>>>>>> Revert
 };
 var UKRAINIAN_MAP = {
     'Є':'Ye', 'І':'I', 'Ї':'Yi', 'Ґ':'G', 'є':'ye', 'і':'i', 'ї':'yi', 'ґ':'g'
 };
+<<<<<<< HEAD
+=======
+>>>>>>> clean up
+>>>>>>> Revert
 var CZECH_MAP = {
     'č':'c', 'ď':'d', 'ě':'e', 'ň': 'n', 'ř':'r', 'š':'s', 'ť':'t', 'ů':'u',
     'ž':'z', 'Č':'C', 'Ď':'D', 'Ě':'E', 'Ň': 'N', 'Ř':'R', 'Š':'S', 'Ť':'T',
     'Ů':'U', 'Ž':'Z'
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+}
+
+var POLISH_MAP = {
+    'ą':'a', 'ć':'c', 'ę':'e', 'ł':'l', 'ń':'n', 'ó':'o', 'ś':'s', 'ź':'z',
+    'ż':'z', 'Ą':'A', 'Ć':'C', 'Ę':'e', 'Ł':'L', 'Ń':'N', 'Ó':'o', 'Ś':'S',
+    'Ź':'Z', 'Ż':'Z'
+}
+
+var LATVIAN_MAP = {
+    'ā':'a', 'č':'c', 'ē':'e', 'ģ':'g', 'ī':'i', 'ķ':'k', 'ļ':'l', 'ņ':'n',
+    'š':'s', 'ū':'u', 'ž':'z', 'Ā':'A', 'Č':'C', 'Ē':'E', 'Ģ':'G', 'Ī':'i',
+    'Ķ':'k', 'Ļ':'L', 'Ņ':'N', 'Š':'S', 'Ū':'u', 'Ž':'Z'
+}
+
+var ALL_DOWNCODE_MAPS=new Array()
+ALL_DOWNCODE_MAPS[0]=LATIN_MAP
+ALL_DOWNCODE_MAPS[1]=LATIN_SYMBOLS_MAP
+ALL_DOWNCODE_MAPS[2]=GREEK_MAP
+ALL_DOWNCODE_MAPS[3]=TURKISH_MAP
+ALL_DOWNCODE_MAPS[4]=RUSSIAN_MAP
+ALL_DOWNCODE_MAPS[5]=UKRAINIAN_MAP
+ALL_DOWNCODE_MAPS[6]=CZECH_MAP
+ALL_DOWNCODE_MAPS[7]=POLISH_MAP
+ALL_DOWNCODE_MAPS[8]=LATVIAN_MAP
+
+var Downcoder = new Object();
+Downcoder.Initialize = function()
+{
+    if (Downcoder.map) // already made
+        return ;
+    Downcoder.map ={}
+    Downcoder.chars = '' ;
+    for(var i in ALL_DOWNCODE_MAPS)
+    {
+        var lookup = ALL_DOWNCODE_MAPS[i]
+        for (var c in lookup)
+        {
+            Downcoder.map[c] = lookup[c] ;
+            Downcoder.chars += c ;
+        }
+     }
+    Downcoder.regex = new RegExp('[' + Downcoder.chars + ']|[^' + Downcoder.chars + ']+','g') ;
+}
+
+downcode= function( slug )
+{
+    Downcoder.Initialize() ;
+    var downcoded =""
+    var pieces = slug.match(Downcoder.regex);
+    if(pieces)
+    {
+        for (var i = 0 ; i < pieces.length ; i++)
+        {
+            if (pieces[i].length == 1)
+            {
+                var mapped = Downcoder.map[pieces[i]] ;
+                if (mapped != null)
+                {
+                    downcoded+=mapped;
+                    continue ;
+                }
+            }
+            downcoded+=pieces[i];
+        }
+    }
+    else
+    {
+        downcoded = slug;
+    }
+    return downcoded;
+=======
+>>>>>>> Revert
 };
 var POLISH_MAP = {
     'ą':'a', 'ć':'c', 'ę':'e', 'ł':'l', 'ń':'n', 'ó':'o', 'ś':'s', 'ź':'z',
@@ -124,6 +244,10 @@ function downcode(slug) {
     return slug.replace(Downcoder.regex, function(m) {
         return Downcoder.map[m];
     });
+<<<<<<< HEAD
+=======
+>>>>>>> clean up
+>>>>>>> Revert
 }
 
 
@@ -131,12 +255,26 @@ function URLify(s, num_chars) {
     // changes, e.g., "Petty theft" to "petty_theft"
     // remove all these words from the string before urlifying
     s = downcode(s);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    removelist = ["a", "an", "as", "at", "before", "but", "by", "for", "from",
+                  "is", "in", "into", "like", "of", "off", "on", "onto", "per",
+                  "since", "than", "the", "this", "that", "to", "up", "via",
+                  "with"];
+    r = new RegExp('\\b(' + removelist.join('|') + ')\\b', 'gi');
+=======
+>>>>>>> Revert
     var removelist = [
         "a", "an", "as", "at", "before", "but", "by", "for", "from", "is",
         "in", "into", "like", "of", "off", "on", "onto", "per", "since",
         "than", "the", "this", "that", "to", "up", "via", "with"
     ];
     var r = new RegExp('\\b(' + removelist.join('|') + ')\\b', 'gi');
+<<<<<<< HEAD
+=======
+>>>>>>> clean up
+>>>>>>> Revert
     s = s.replace(r, '');
     // if downcode doesn't hit, the char will be stripped here
     s = s.replace(/[^-\w\s]/g, '');  // remove unneeded chars
@@ -145,3 +283,10 @@ function URLify(s, num_chars) {
     s = s.toLowerCase();             // convert to lowercase
     return s.substring(0, num_chars);// trim to first num_chars chars
 }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> clean up
+>>>>>>> Revert
