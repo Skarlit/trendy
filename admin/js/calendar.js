@@ -28,14 +28,26 @@ var CalendarNamespace = {
         return days;
     },
 <<<<<<< HEAD
-    draw: function(month, year, div_id, callback, selected) { // month = 1-12, year = 1-9999
+<<<<<<< HEAD
 =======
+<<<<<<< HEAD
+    draw: function(month, year, div_id, callback) { // month = 1-12, year = 1-9999
+=======
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
+    draw: function(month, year, div_id, callback, selected) { // month = 1-12, year = 1-9999
+>>>>>>> clean up
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
     draw: function(month, year, div_id, callback) { // month = 1-12, year = 1-9999
 =======
     draw: function(month, year, div_id, callback, selected) { // month = 1-12, year = 1-9999
 >>>>>>> clean up
 >>>>>>> Revert
+=======
+    draw: function(month, year, div_id, callback, selected) { // month = 1-12, year = 1-9999
+>>>>>>> clean up
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
         var today = new Date();
         var todayDay = today.getDate();
         var todayMonth = today.getMonth()+1;
@@ -43,10 +55,17 @@ var CalendarNamespace = {
         var todayClass = '';
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> Revert
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> clean up
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
         // Use UTC functions here because the date field does not contain time
         // and using the UTC function variants prevent the local time offset
         // from altering the date, specifically the day field.  For example:
@@ -64,9 +83,15 @@ var CalendarNamespace = {
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> clean up
 >>>>>>> Revert
+=======
+>>>>>>> clean up
+=======
+>>>>>>> clean up
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
         month = parseInt(month);
         year = parseInt(year);
         var calDiv = document.getElementById(div_id);
@@ -89,14 +114,26 @@ var CalendarNamespace = {
         for (var i = 0; i < startingPos; i++) {
             var _cell = quickElement('td', tableRow, ' ');
 <<<<<<< HEAD
-            _cell.className = "nonday";
+<<<<<<< HEAD
 =======
+<<<<<<< HEAD
+            _cell.style.backgroundColor = '#f3f3f3';
+=======
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
+            _cell.className = "nonday";
+>>>>>>> clean up
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
             _cell.style.backgroundColor = '#f3f3f3';
 =======
             _cell.className = "nonday";
 >>>>>>> clean up
 >>>>>>> Revert
+=======
+            _cell.className = "nonday";
+>>>>>>> clean up
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
         }
 
         // Draw days of month
@@ -111,10 +148,17 @@ var CalendarNamespace = {
                 todayClass='';
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> Revert
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> clean up
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
 
             // use UTC function; see above for explanation.
             if (isSelectedMonth && currentDay == selected.getUTCDate()) {
@@ -123,9 +167,15 @@ var CalendarNamespace = {
             }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> clean up
 >>>>>>> Revert
+=======
+>>>>>>> clean up
+=======
+>>>>>>> clean up
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
             var cell = quickElement('td', tableRow, '', 'class', todayClass);
 
             quickElement('a', cell, currentDay, 'href', 'javascript:void(' + callback + '('+year+','+month+','+currentDay+'));');
@@ -136,14 +186,26 @@ var CalendarNamespace = {
         while (tableRow.childNodes.length < 7) {
             var _cell = quickElement('td', tableRow, ' ');
 <<<<<<< HEAD
-            _cell.className = "nonday";
+<<<<<<< HEAD
 =======
+<<<<<<< HEAD
+            _cell.style.backgroundColor = '#f3f3f3';
+=======
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
+            _cell.className = "nonday";
+>>>>>>> clean up
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
             _cell.style.backgroundColor = '#f3f3f3';
 =======
             _cell.className = "nonday";
 >>>>>>> clean up
 >>>>>>> Revert
+=======
+            _cell.className = "nonday";
+>>>>>>> clean up
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
         }
 
         calDiv.appendChild(calTable);
@@ -152,14 +214,26 @@ var CalendarNamespace = {
 
 // Calendar -- A calendar instance
 <<<<<<< HEAD
-function Calendar(div_id, callback, selected) {
+<<<<<<< HEAD
 =======
+<<<<<<< HEAD
+function Calendar(div_id, callback) {
+=======
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
+function Calendar(div_id, callback, selected) {
+>>>>>>> clean up
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 function Calendar(div_id, callback) {
 =======
 function Calendar(div_id, callback, selected) {
 >>>>>>> clean up
 >>>>>>> Revert
+=======
+function Calendar(div_id, callback, selected) {
+>>>>>>> clean up
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
     // div_id (string) is the ID of the element in which the calendar will
     //     be displayed
     // callback (string) is the name of a JavaScript function that will be
@@ -171,7 +245,10 @@ function Calendar(div_id, callback, selected) {
     this.currentMonth = this.today.getMonth() + 1;
     this.currentYear = this.today.getFullYear();
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
 <<<<<<< HEAD
 }
 Calendar.prototype = {
@@ -182,7 +259,12 @@ Calendar.prototype = {
         this.currentMonth = month;
         this.currentYear = year;
 =======
+<<<<<<< HEAD
 >>>>>>> Revert
+=======
+=======
+>>>>>>> clean up
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
     if (typeof selected != 'undefined') {
         this.selected = selected;
     }
@@ -200,9 +282,15 @@ Calendar.prototype = {
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> clean up
 >>>>>>> Revert
+=======
+>>>>>>> clean up
+=======
+>>>>>>> clean up
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
         this.drawCurrent();
     },
     drawPreviousMonth: function() {

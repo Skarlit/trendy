@@ -55,9 +55,18 @@
     float: left;
     width: 22px;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    height: 50px;
+    background: url(../img/chooser-bg.gif) top center no-repeat;
+=======
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
     background-color: #eee;
     border-radius: 10px;
+>>>>>>> clean up
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
     height: 50px;
     background: url(../img/chooser-bg.gif) top center no-repeat;
@@ -66,6 +75,11 @@
     border-radius: 10px;
 >>>>>>> clean up
 >>>>>>> Revert
+=======
+    background-color: #eee;
+    border-radius: 10px;
+>>>>>>> clean up
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
     margin: 10em 5px 0 5px;
     padding: 0;
 }
@@ -180,9 +194,17 @@ a.active.selector-clearall {
     width: 50px;
     margin: 0 0 3px 40%;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    background: url(../img/chooser_stacked-bg.gif) top center no-repeat;
+=======
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
     background-color: #eee;
     border-radius: 10px;
+>>>>>>> clean up
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
     background: url(../img/chooser_stacked-bg.gif) top center no-repeat;
 =======
@@ -190,6 +212,11 @@ a.active.selector-clearall {
     border-radius: 10px;
 >>>>>>> clean up
 >>>>>>> Revert
+=======
+    background-color: #eee;
+    border-radius: 10px;
+>>>>>>> clean up
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
 }
 
 .stacked .selector-chooser li {
@@ -596,9 +623,17 @@ ul.orderer li.deleted:hover, ul.orderer li.deleted a.selector:hover {
     border-top: 1px solid #ddd;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
 <<<<<<< HEAD
 
 =======
 >>>>>>> clean up
+<<<<<<< HEAD
 >>>>>>> Revert
+=======
+=======
+>>>>>>> clean up
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1

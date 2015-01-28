@@ -28,14 +28,26 @@ a img {
 
 a.section:link, a.section:visited {
 <<<<<<< HEAD
-    color: #fff;
+<<<<<<< HEAD
 =======
+<<<<<<< HEAD
+    color: white;
+=======
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
+    color: #fff;
+>>>>>>> clean up
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
     color: white;
 =======
     color: #fff;
 >>>>>>> clean up
 >>>>>>> Revert
+=======
+    color: #fff;
+>>>>>>> clean up
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
     text-decoration: none;
 }
 
@@ -313,14 +325,26 @@ tr.alt {
 
 .row2 {
 <<<<<<< HEAD
-    background: #fff;
+<<<<<<< HEAD
 =======
+<<<<<<< HEAD
+    background: white;
+=======
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
+    background: #fff;
+>>>>>>> clean up
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
     background: white;
 =======
     background: #fff;
 >>>>>>> clean up
 >>>>>>> Revert
+=======
+    background: #fff;
+>>>>>>> clean up
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
 }
 
 /* SORTABLE TABLES */
@@ -340,14 +364,26 @@ thead th.sorted {
 
 thead th.sorted .text {
 <<<<<<< HEAD
-    padding-right: 42px;
+<<<<<<< HEAD
 =======
+<<<<<<< HEAD
+	padding-right: 42px;
+=======
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
+    padding-right: 42px;
+>>>>>>> clean up
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 	padding-right: 42px;
 =======
     padding-right: 42px;
 >>>>>>> clean up
 >>>>>>> Revert
+=======
+    padding-right: 42px;
+>>>>>>> clean up
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
 }
 
 table thead th .text span {
@@ -363,14 +399,26 @@ table thead th .text a {
 
 table thead th.sortable:hover {
 <<<<<<< HEAD
-    background: #fff url(../img/nav-bg-reverse.gif) 0 -5px repeat-x;
+<<<<<<< HEAD
 =======
+<<<<<<< HEAD
+    background: white url(../img/nav-bg-reverse.gif) 0 -5px repeat-x;
+=======
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
+    background: #fff url(../img/nav-bg-reverse.gif) 0 -5px repeat-x;
+>>>>>>> clean up
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
     background: white url(../img/nav-bg-reverse.gif) 0 -5px repeat-x;
 =======
     background: #fff url(../img/nav-bg-reverse.gif) 0 -5px repeat-x;
 >>>>>>> clean up
 >>>>>>> Revert
+=======
+    background: #fff url(../img/nav-bg-reverse.gif) 0 -5px repeat-x;
+>>>>>>> clean up
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
 }
 
 thead th.sorted a.sortremove {
@@ -465,14 +513,26 @@ textarea, select, .vTextField {
 
 .button, input[type=submit], input[type=button], .submit-row input {
 <<<<<<< HEAD
-    background: #fff url(../img/nav-bg.gif) bottom repeat-x;
+<<<<<<< HEAD
 =======
+<<<<<<< HEAD
+    background: white url(../img/nav-bg.gif) bottom repeat-x;
+=======
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
+    background: #fff url(../img/nav-bg.gif) bottom repeat-x;
+>>>>>>> clean up
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
     background: white url(../img/nav-bg.gif) bottom repeat-x;
 =======
     background: #fff url(../img/nav-bg.gif) bottom repeat-x;
 >>>>>>> clean up
 >>>>>>> Revert
+=======
+    background: #fff url(../img/nav-bg.gif) bottom repeat-x;
+>>>>>>> clean up
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
     padding: 3px 5px;
     color: black;
     border: 1px solid #bbb;
@@ -486,20 +546,35 @@ textarea, select, .vTextField {
 
 .button[disabled], input[type=submit][disabled], input[type=button][disabled] {
 <<<<<<< HEAD
-    background-image: url(../img/nav-bg.gif);
-    background-position: bottom;
-    opacity: 0.4;
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 	background-image: url(../img/nav-bg.gif);
 	background-position: bottom;
 	opacity: 0.4;
 =======
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
     background-image: url(../img/nav-bg.gif);
     background-position: bottom;
     opacity: 0.4;
 >>>>>>> clean up
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+	background-image: url(../img/nav-bg.gif);
+	background-position: bottom;
+	opacity: 0.4;
+=======
+=======
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
+    background-image: url(../img/nav-bg.gif);
+    background-position: bottom;
+    opacity: 0.4;
+>>>>>>> clean up
+<<<<<<< HEAD
 >>>>>>> Revert
+=======
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
 }
 
 .button.default, input[type=submit].default, .submit-row input.default {
@@ -507,14 +582,26 @@ textarea, select, .vTextField {
     background: #7CA0C7 url(../img/default-bg.gif) bottom repeat-x;
     font-weight: bold;
 <<<<<<< HEAD
-    color: #fff;
+<<<<<<< HEAD
 =======
+<<<<<<< HEAD
+    color: white;
+=======
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
+    color: #fff;
+>>>>>>> clean up
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
     color: white;
 =======
     color: #fff;
 >>>>>>> clean up
 >>>>>>> Revert
+=======
+    color: #fff;
+>>>>>>> clean up
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
     float: right;
 }
 
@@ -525,20 +612,35 @@ textarea, select, .vTextField {
 
 .button[disabled].default, input[type=submit][disabled].default, input[type=button][disabled].default {
 <<<<<<< HEAD
-    background-image: url(../img/default-bg.gif);
-    background-position: bottom;
-    opacity: 0.4;
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 	background-image: url(../img/default-bg.gif);
 	background-position: bottom;
 	opacity: 0.4;
 =======
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
     background-image: url(../img/default-bg.gif);
     background-position: bottom;
     opacity: 0.4;
 >>>>>>> clean up
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+	background-image: url(../img/default-bg.gif);
+	background-position: bottom;
+	opacity: 0.4;
+=======
+=======
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
+    background-image: url(../img/default-bg.gif);
+    background-position: bottom;
+    opacity: 0.4;
+>>>>>>> clean up
+<<<<<<< HEAD
 >>>>>>> Revert
+=======
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
 }
 
 
@@ -548,14 +650,26 @@ textarea, select, .vTextField {
     border: 1px solid #ccc;
     margin-bottom: 5px;
 <<<<<<< HEAD
-    background: #fff;
+<<<<<<< HEAD
 =======
+<<<<<<< HEAD
+    background: white;
+=======
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
+    background: #fff;
+>>>>>>> clean up
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
     background: white;
 =======
     background: #fff;
 >>>>>>> clean up
 >>>>>>> Revert
+=======
+    background: #fff;
+>>>>>>> clean up
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
 }
 
 .module p, .module ul, .module h3, .module h4, .module dl, .module pre {
@@ -583,14 +697,26 @@ textarea, select, .vTextField {
     font-weight: bold;
     background: #7CA0C7 url(../img/default-bg.gif) top left repeat-x;
 <<<<<<< HEAD
-    color: #fff;
+<<<<<<< HEAD
 =======
+<<<<<<< HEAD
+    color: white;
+=======
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
+    color: #fff;
+>>>>>>> clean up
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
     color: white;
 =======
     color: #fff;
 >>>>>>> clean up
 >>>>>>> Revert
+=======
+    color: #fff;
+>>>>>>> clean up
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
 }
 
 .module table {
@@ -601,21 +727,36 @@ textarea, select, .vTextField {
 
 ul.messagelist {
 <<<<<<< HEAD
-    padding: 0;
+<<<<<<< HEAD
 =======
+<<<<<<< HEAD
+    padding: 0 0 5px 0;
+=======
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
+    padding: 0;
+>>>>>>> clean up
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
     padding: 0 0 5px 0;
 =======
     padding: 0;
 >>>>>>> clean up
 >>>>>>> Revert
+=======
+    padding: 0;
+>>>>>>> clean up
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
     margin: 0;
 }
 
 ul.messagelist li {
     font-size: 12px;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
 <<<<<<< HEAD
     display: block;
     padding: 4px 5px 4px 25px;
@@ -632,7 +773,12 @@ ul.messagelist li.warning{
 ul.messagelist li.error{
     background-image: url(../img/icon_error.gif);
 =======
+<<<<<<< HEAD
 >>>>>>> Revert
+=======
+=======
+>>>>>>> clean up
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
     font-weight: bold;
     display: block;
     padding: 5px 5px 4px 25px;
@@ -649,6 +795,7 @@ ul.messagelist li.warning {
 ul.messagelist li.error {
     background: #ffefef url(../img/icon_error.gif) 5px .3em no-repeat;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> clean up
 >>>>>>> Revert
@@ -658,6 +805,16 @@ ul.messagelist li.error {
     font-size: 12px !important;
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> clean up
+=======
+>>>>>>> clean up
+}
+
+.errornote {
+    font-size: 12px !important;
+<<<<<<< HEAD
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
 <<<<<<< HEAD
     display: block;
     padding: 4px 5px 4px 25px;
@@ -685,7 +842,12 @@ ul.errorlist {
 .errorlist li a {
  	color: white;
 =======
+<<<<<<< HEAD
 >>>>>>> Revert
+=======
+=======
+>>>>>>> clean up
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
     font-weight: bold;
     display: block;
     padding: 5px 5px 4px 25px;
@@ -720,9 +882,15 @@ ul.errorlist li:first-child {
 ul.errorlist li a {
     color: #fff;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> clean up
 >>>>>>> Revert
+=======
+>>>>>>> clean up
+=======
+>>>>>>> clean up
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
     text-decoration: underline;
 }
 
@@ -736,7 +904,10 @@ td ul.errorlist li {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
 <<<<<<< HEAD
 .errors {
     background: #ffc;
@@ -745,7 +916,12 @@ td ul.errorlist li {
 .errors input, .errors select, .errors textarea {
     border: 1px solid red;
 =======
+<<<<<<< HEAD
 >>>>>>> Revert
+=======
+=======
+>>>>>>> clean up
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
 .errors, .form-row.errors {
     background: #ffefef;
 }
@@ -758,9 +934,15 @@ td ul.errorlist li {
 .errors input, .errors select, .errors textarea {
     border: 1px solid #c11;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> clean up
 >>>>>>> Revert
+=======
+>>>>>>> clean up
+=======
+>>>>>>> clean up
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
 }
 
 div.system-message {
@@ -774,9 +956,18 @@ div.system-message p.system-message-title {
     padding: 4px 5px 4px 25px;
     margin: 0;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    color: red;
+    background: #ffc url(../img/icon_error.gif) 5px .3em no-repeat;
+=======
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
     color: #c11;
     background: #ffefef url(../img/icon_error.gif) 5px .3em no-repeat;
+>>>>>>> clean up
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
     color: red;
     background: #ffc url(../img/icon_error.gif) 5px .3em no-repeat;
@@ -785,6 +976,11 @@ div.system-message p.system-message-title {
     background: #ffefef url(../img/icon_error.gif) 5px .3em no-repeat;
 >>>>>>> clean up
 >>>>>>> Revert
+=======
+    color: #c11;
+    background: #ffefef url(../img/icon_error.gif) 5px .3em no-repeat;
+>>>>>>> clean up
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
 }
 
 .description {
@@ -795,6 +991,7 @@ div.system-message p.system-message-title {
 /* BREADCRUMBS */
 
 div.breadcrumbs {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -816,6 +1013,28 @@ div.breadcrumbs {
 =======
 >>>>>>> clean up
 >>>>>>> Revert
+=======
+<<<<<<< HEAD
+    background: white url(../img/nav-bg-reverse.gif) 0 -10px repeat-x;
+    padding: 2px 8px 3px 8px;
+    font-size: 11px;
+    color: #999;
+    border-top: 1px solid white;
+    border-bottom: 1px solid #ccc;
+=======
+=======
+>>>>>>> clean up
+    background: #fff url(../img/nav-bg-reverse.gif) 0 -10px repeat-x;
+    padding: 2px 8px 3px 8px;
+    font-size: 11px;
+    color: #999;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #ddd;
+<<<<<<< HEAD
+>>>>>>> clean up
+=======
+>>>>>>> clean up
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
     text-align: left;
 }
 
@@ -869,7 +1088,10 @@ a.deletelink:hover {
     display: block;
     float: left;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
 <<<<<<< HEAD
     background: url(../img/tool-left.gif) 0 0 no-repeat;
     padding: 0 0 0 8px;
@@ -880,7 +1102,12 @@ a.deletelink:hover {
 .object-tools li:hover {
     background: url(../img/tool-left_over.gif) 0 0 no-repeat;
 =======
+<<<<<<< HEAD
 >>>>>>> Revert
+=======
+=======
+>>>>>>> clean up
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
     margin-left: 5px;
     height: 16px;
 }
@@ -888,16 +1115,25 @@ a.deletelink:hover {
 .object-tools a {
     border-radius: 15px;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> clean up
 >>>>>>> Revert
+=======
+>>>>>>> clean up
+=======
+>>>>>>> clean up
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
 }
 
 .object-tools a:link, .object-tools a:visited {
     display: block;
     float: left;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
 <<<<<<< HEAD
     color: white;
     padding: .1em 14px .1em 8px;
@@ -926,7 +1162,12 @@ a.deletelink:hover {
 .object-tools a.addlink:hover {
     background: #5b80b2 url(../img/tooltag-add_over.gif) top right no-repeat;
 =======
+<<<<<<< HEAD
 >>>>>>> Revert
+=======
+=======
+>>>>>>> clean up
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
     color: #fff;
     padding: .2em 10px;
     background: #999;
@@ -945,9 +1186,15 @@ a.deletelink:hover {
     background: #999 url(../img/tooltag-add.png) 95% center no-repeat;
     padding-right: 26px;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> clean up
 >>>>>>> Revert
+=======
+>>>>>>> clean up
+=======
+>>>>>>> clean up
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
 }
 
 /* OBJECT HISTORY */
@@ -974,7 +1221,10 @@ table#change-history tbody th {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
 <<<<<<< HEAD
 #header {
     width: 100%;
@@ -982,7 +1232,12 @@ table#change-history tbody th {
 
 =======
 >>>>>>> clean up
+<<<<<<< HEAD
 >>>>>>> Revert
+=======
+=======
+>>>>>>> clean up
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
 #content-main {
     float: left;
     width: 100%;
@@ -1038,13 +1293,24 @@ table#change-history tbody th {
 
 #header {
 <<<<<<< HEAD
-    width: 100%;
+<<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
+    width: 100%;
+>>>>>>> clean up
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     width: 100%;
 >>>>>>> clean up
 >>>>>>> Revert
+=======
+    width: 100%;
+>>>>>>> clean up
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
     background: #417690;
     color: #ffc;
     overflow: hidden;
@@ -1052,14 +1318,26 @@ table#change-history tbody th {
 
 #header a:link, #header a:visited {
 <<<<<<< HEAD
-    color: #fff;
+<<<<<<< HEAD
 =======
+<<<<<<< HEAD
+    color: white;
+=======
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
+    color: #fff;
+>>>>>>> clean up
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
     color: white;
 =======
     color: #fff;
 >>>>>>> clean up
 >>>>>>> Revert
+=======
+    color: #fff;
+>>>>>>> clean up
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
 }
 
 #header a:hover {
@@ -1067,34 +1345,58 @@ table#change-history tbody th {
 }
 
 <<<<<<< HEAD
-#branding {
-    float: left;
-}
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
 #branding {
     float: left;
 }
 >>>>>>> clean up
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
+#branding {
+    float: left;
+}
+>>>>>>> clean up
+<<<<<<< HEAD
 >>>>>>> Revert
+=======
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
 #branding h1 {
     padding: 0 10px;
     font-size: 18px;
     margin: 8px 0;
     font-weight: normal;
 <<<<<<< HEAD
-}
-
-#branding h1, #branding h1 a:link, #branding h1 a:visited {
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
 }
 
 #branding h1, #branding h1 a:link, #branding h1 a:visited {
 >>>>>>> clean up
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
+}
+
+#branding h1, #branding h1 a:link, #branding h1 a:visited {
+>>>>>>> clean up
+<<<<<<< HEAD
 >>>>>>> Revert
+=======
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
     color: #f4f379;
 }
 
@@ -1107,14 +1409,22 @@ table#change-history tbody th {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
 <<<<<<< HEAD
 #user-tools {
     position: absolute;
     top: 0;
     right: 0;
 =======
+<<<<<<< HEAD
 >>>>>>> Revert
+=======
+=======
+>>>>>>> clean up
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
 #branding a:hover {
     text-decoration: none;
 }
@@ -1122,9 +1432,15 @@ table#change-history tbody th {
 #user-tools {
     float: right;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> clean up
 >>>>>>> Revert
+=======
+>>>>>>> clean up
+=======
+>>>>>>> clean up
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
     padding: 1.2em 10px;
     font-size: 11px;
     text-align: right;
@@ -1147,9 +1463,17 @@ table#change-history tbody th {
     color: #666;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
 <<<<<<< HEAD
 
 =======
 >>>>>>> clean up
+<<<<<<< HEAD
 >>>>>>> Revert
+=======
+=======
+>>>>>>> clean up
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1

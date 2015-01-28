@@ -17,19 +17,33 @@ var SelectBox = {
             var node = SelectBox.cache[id][i];
             if (node.displayed) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
                 box.options[box.options.length] = new Option(node.text, node.value, false, false);
 =======
 >>>>>>> Revert
+=======
+<<<<<<< HEAD
+                box.options[box.options.length] = new Option(node.text, node.value, false, false);
+=======
+=======
+>>>>>>> clean up
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
                 var new_option = new Option(node.text, node.value, false, false);
                 // Shows a tooltip when hovering over the option
                 new_option.setAttribute("title", node.text);
                 box.options[box.options.length] = new_option;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> clean up
 >>>>>>> Revert
+=======
+>>>>>>> clean up
+=======
+>>>>>>> clean up
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
             }
         }
     },

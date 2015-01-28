@@ -4,6 +4,7 @@ var LATIN_MAP = {
     'Ï': 'I', 'Ð': 'D', 'Ñ': 'N', 'Ò': 'O', 'Ó': 'O', 'Ô': 'O', 'Õ': 'O', 'Ö':
     'O', 'Ő': 'O', 'Ø': 'O', 'Ù': 'U', 'Ú': 'U', 'Û': 'U', 'Ü': 'U', 'Ű': 'U',
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
     'Ý': 'Y', 'Þ': 'TH', 'ß': 'ss', 'à':'a', 'á':'a', 'â': 'a', 'ã': 'a', 'ä':
@@ -30,6 +31,34 @@ var LATIN_SYMBOLS_MAP = {
 =======
 >>>>>>> clean up
 >>>>>>> Revert
+=======
+<<<<<<< HEAD
+    'Ý': 'Y', 'Þ': 'TH', 'ß': 'ss', 'à':'a', 'á':'a', 'â': 'a', 'ã': 'a', 'ä':
+    'a', 'å': 'a', 'æ': 'ae', 'ç': 'c', 'è': 'e', 'é': 'e', 'ê': 'e', 'ë': 'e',
+    'ì': 'i', 'í': 'i', 'î': 'i', 'ï': 'i', 'ð': 'd', 'ñ': 'n', 'ò': 'o', 'ó':
+    'o', 'ô': 'o', 'õ': 'o', 'ö': 'o', 'ő': 'o', 'ø': 'o', 'ù': 'u', 'ú': 'u',
+    'û': 'u', 'ü': 'u', 'ű': 'u', 'ý': 'y', 'þ': 'th', 'ÿ': 'y'
+}
+var LATIN_SYMBOLS_MAP = {
+    '©':'(c)'
+}
+=======
+=======
+>>>>>>> clean up
+    'Ý': 'Y', 'Þ': 'TH', 'Ÿ': 'Y', 'ß': 'ss', 'à':'a', 'á':'a', 'â': 'a', 'ã':
+    'a', 'ä': 'a', 'å': 'a', 'æ': 'ae', 'ç': 'c', 'è': 'e', 'é': 'e', 'ê': 'e',
+    'ë': 'e', 'ì': 'i', 'í': 'i', 'î': 'i', 'ï': 'i', 'ð': 'd', 'ñ': 'n', 'ò':
+    'o', 'ó': 'o', 'ô': 'o', 'õ': 'o', 'ö': 'o', 'ő': 'o', 'ø': 'o', 'ù': 'u',
+    'ú': 'u', 'û': 'u', 'ü': 'u', 'ű': 'u', 'ý': 'y', 'þ': 'th', 'ÿ': 'y'
+};
+var LATIN_SYMBOLS_MAP = {
+    '©':'(c)'
+};
+<<<<<<< HEAD
+>>>>>>> clean up
+=======
+>>>>>>> clean up
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
 var GREEK_MAP = {
     'α':'a', 'β':'b', 'γ':'g', 'δ':'d', 'ε':'e', 'ζ':'z', 'η':'h', 'θ':'8',
     'ι':'i', 'κ':'k', 'λ':'l', 'μ':'m', 'ν':'n', 'ξ':'3', 'ο':'o', 'π':'p',
@@ -42,7 +71,10 @@ var GREEK_MAP = {
     'Ά':'A', 'Έ':'E', 'Ί':'I', 'Ό':'O', 'Ύ':'Y', 'Ή':'H', 'Ώ':'W', 'Ϊ':'I',
     'Ϋ':'Y'
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
 <<<<<<< HEAD
 }
 var TURKISH_MAP = {
@@ -50,16 +82,27 @@ var TURKISH_MAP = {
     'ö':'o', 'Ö':'O', 'ğ':'g', 'Ğ':'G'
 }
 =======
+<<<<<<< HEAD
 >>>>>>> Revert
+=======
+=======
+>>>>>>> clean up
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
 };
 var TURKISH_MAP = {
     'ş':'s', 'Ş':'S', 'ı':'i', 'İ':'I', 'ç':'c', 'Ç':'C', 'ü':'u', 'Ü':'U',
     'ö':'o', 'Ö':'O', 'ğ':'g', 'Ğ':'G'
 };
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> clean up
 >>>>>>> Revert
+=======
+>>>>>>> clean up
+=======
+>>>>>>> clean up
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
 var RUSSIAN_MAP = {
     'а':'a', 'б':'b', 'в':'v', 'г':'g', 'д':'d', 'е':'e', 'ё':'yo', 'ж':'zh',
     'з':'z', 'и':'i', 'й':'j', 'к':'k', 'л':'l', 'м':'m', 'н':'n', 'о':'o',
@@ -72,11 +115,23 @@ var RUSSIAN_MAP = {
     'Ч':'Ch', 'Ш':'Sh', 'Щ':'Sh', 'Ъ':'', 'Ы':'Y', 'Ь':'', 'Э':'E', 'Ю':'Yu',
     'Я':'Ya'
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 }
 var UKRAINIAN_MAP = {
     'Є':'Ye', 'І':'I', 'Ї':'Yi', 'Ґ':'G', 'є':'ye', 'і':'i', 'ї':'yi', 'ґ':'g'
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
+}
+=======
+=======
+>>>>>>> clean up
+};
+var UKRAINIAN_MAP = {
+    'Є':'Ye', 'І':'I', 'Ї':'Yi', 'Ґ':'G', 'є':'ye', 'і':'i', 'ї':'yi', 'ґ':'g'
+<<<<<<< HEAD
 }
 =======
 >>>>>>> Revert
@@ -88,12 +143,22 @@ var UKRAINIAN_MAP = {
 =======
 >>>>>>> clean up
 >>>>>>> Revert
+=======
+};
+<<<<<<< HEAD
+>>>>>>> clean up
+=======
+>>>>>>> clean up
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
 var CZECH_MAP = {
     'č':'c', 'ď':'d', 'ě':'e', 'ň': 'n', 'ř':'r', 'š':'s', 'ť':'t', 'ů':'u',
     'ž':'z', 'Č':'C', 'Ď':'D', 'Ě':'E', 'Ň': 'N', 'Ř':'R', 'Š':'S', 'Ť':'T',
     'Ů':'U', 'Ž':'Z'
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
 <<<<<<< HEAD
 }
 
@@ -166,7 +231,12 @@ downcode= function( slug )
     }
     return downcoded;
 =======
+<<<<<<< HEAD
 >>>>>>> Revert
+=======
+=======
+>>>>>>> clean up
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
 };
 var POLISH_MAP = {
     'ą':'a', 'ć':'c', 'ę':'e', 'ł':'l', 'ń':'n', 'ó':'o', 'ś':'s', 'ź':'z',
@@ -245,9 +315,15 @@ function downcode(slug) {
         return Downcoder.map[m];
     });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> clean up
 >>>>>>> Revert
+=======
+>>>>>>> clean up
+=======
+>>>>>>> clean up
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
 }
 
 
@@ -256,7 +332,10 @@ function URLify(s, num_chars) {
     // remove all these words from the string before urlifying
     s = downcode(s);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
 <<<<<<< HEAD
     removelist = ["a", "an", "as", "at", "before", "but", "by", "for", "from",
                   "is", "in", "into", "like", "of", "off", "on", "onto", "per",
@@ -264,7 +343,12 @@ function URLify(s, num_chars) {
                   "with"];
     r = new RegExp('\\b(' + removelist.join('|') + ')\\b', 'gi');
 =======
+<<<<<<< HEAD
 >>>>>>> Revert
+=======
+=======
+>>>>>>> clean up
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
     var removelist = [
         "a", "an", "as", "at", "before", "but", "by", "for", "from", "is",
         "in", "into", "like", "of", "off", "on", "onto", "per", "since",
@@ -272,9 +356,15 @@ function URLify(s, num_chars) {
     ];
     var r = new RegExp('\\b(' + removelist.join('|') + ')\\b', 'gi');
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> clean up
 >>>>>>> Revert
+=======
+>>>>>>> clean up
+=======
+>>>>>>> clean up
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
     s = s.replace(r, '');
     // if downcode doesn't hit, the char will be stripped here
     s = s.replace(/[^-\w\s]/g, '');  // remove unneeded chars
@@ -284,9 +374,17 @@ function URLify(s, num_chars) {
     return s.substring(0, num_chars);// trim to first num_chars chars
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
 <<<<<<< HEAD
 
 =======
 >>>>>>> clean up
+<<<<<<< HEAD
 >>>>>>> Revert
+=======
+=======
+>>>>>>> clean up
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1

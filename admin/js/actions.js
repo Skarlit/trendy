@@ -1,14 +1,26 @@
 (function($) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
 	var lastChecked;
 
+>>>>>>> clean up
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 	var lastChecked;
 
 >>>>>>> clean up
 >>>>>>> Revert
+=======
+	var lastChecked;
+
+>>>>>>> clean up
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
 	$.fn.actions = function(opts) {
 		var options = $.extend({}, $.fn.actions.defaults, opts);
 		var actionCheckboxes = $(this);
@@ -25,15 +37,27 @@
 		updateCounter = function() {
 			var sel = $(actionCheckboxes).filter(":checked").length;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
 			// _actions_icnt is defined in the generated HTML
 			// and contains the total amount of objects in the queryset
+>>>>>>> clean up
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 			// _actions_icnt is defined in the generated HTML
 			// and contains the total amount of objects in the queryset
 >>>>>>> clean up
 >>>>>>> Revert
+=======
+			// _actions_icnt is defined in the generated HTML
+			// and contains the total amount of objects in the queryset
+>>>>>>> clean up
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
 			$(options.counterContainer).html(interpolate(
 			ngettext('%(sel)s of %(cnt)s selected', '%(sel)s of %(cnt)s selected', sel), {
 				sel: sel,
@@ -41,13 +65,24 @@
 			}, true));
 			$(options.allToggle).prop("checked", function() {
 <<<<<<< HEAD
-				var value;
+<<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
+				var value;
+>>>>>>> clean up
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 				var value;
 >>>>>>> clean up
 >>>>>>> Revert
+=======
+				var value;
+>>>>>>> clean up
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
 				if (sel == actionCheckboxes.length) {
 					value = true;
 					showQuestion();
@@ -96,27 +131,51 @@
 			updateCounter();
 		});
 <<<<<<< HEAD
-		$("a", options.acrossQuestions).click(function(event) {
+<<<<<<< HEAD
 =======
+<<<<<<< HEAD
+		$("div.actions span.question a").click(function(event) {
+=======
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
+		$("a", options.acrossQuestions).click(function(event) {
+>>>>>>> clean up
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 		$("div.actions span.question a").click(function(event) {
 =======
 		$("a", options.acrossQuestions).click(function(event) {
 >>>>>>> clean up
 >>>>>>> Revert
+=======
+		$("a", options.acrossQuestions).click(function(event) {
+>>>>>>> clean up
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
 			event.preventDefault();
 			$(options.acrossInput).val(1);
 			showClear();
 		});
 <<<<<<< HEAD
-		$("a", options.acrossClears).click(function(event) {
+<<<<<<< HEAD
 =======
+<<<<<<< HEAD
+		$("div.actions span.clear a").click(function(event) {
+=======
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
+		$("a", options.acrossClears).click(function(event) {
+>>>>>>> clean up
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 		$("div.actions span.clear a").click(function(event) {
 =======
 		$("a", options.acrossClears).click(function(event) {
 >>>>>>> clean up
 >>>>>>> Revert
+=======
+		$("a", options.acrossClears).click(function(event) {
+>>>>>>> clean up
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
 			event.preventDefault();
 			$(options.allToggle).prop("checked", false);
 			clearAcross();
@@ -156,14 +215,26 @@
 		$('form#changelist-form input[name="_save"]').click(function(event) {
 			var action_changed = false;
 <<<<<<< HEAD
-			$('select option:selected', options.actionContainer).each(function() {
+<<<<<<< HEAD
 =======
+<<<<<<< HEAD
+			$('div.actions select option:selected').each(function() {
+=======
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
+			$('select option:selected', options.actionContainer).each(function() {
+>>>>>>> clean up
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 			$('div.actions select option:selected').each(function() {
 =======
 			$('select option:selected', options.actionContainer).each(function() {
 >>>>>>> clean up
 >>>>>>> Revert
+=======
+			$('select option:selected', options.actionContainer).each(function() {
+>>>>>>> clean up
+>>>>>>> b04f72c528563f2444ed22c4c55c077b2f864fb1
 				if ($(this).val()) {
 					action_changed = true;
 				}
